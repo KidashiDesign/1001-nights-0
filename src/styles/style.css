@@ -101,12 +101,12 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 }
 
 .wordmark .logo-image {
-  max-height: 300px;
-  width: auto;
+  width: 200px;
+  height: 150px;
 }
 .wordmark-nav .logo-image-nav {
-  max-height: 70px;
-  width: auto;
+  width: 250px;
+  height: 45px;
     margin-top: 0.5rem;
 }
 

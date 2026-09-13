@@ -21,95 +21,95 @@ const ui = {
 
   /* ══════════════════════════════════════════════════════════ ENGLISH ══ */
   en: {
-    brandSub: 'Restaurant',
+    brandSub: 'Persian Restaurant',
     langLabel: 'Language',
     skipToContent: 'Skip to content',
 
     meta: {
-      homeTitle: 'Aladin Kitchen — Persian Restaurant in Tbilisi',
-      homeDesc: 'Persian cooking in the old town of Tbilisi: kebab over charcoal, khoresht from the pot, saffron rice and tea from the samovar. Shavteli St. 5.',
+      homeTitle: 'Aladin Kitchen — Persian Restaurant in the Old Town of Tbilisi',
+      homeDesc: 'Charcoal kebab, slow-cooked khoresht, saffron rice and tea poured from the samovar — Persian cooking on Shavteli Street since 2015.',
       menuTitle: 'Menu — Aladin Kitchen, Persian Restaurant in Tbilisi',
-      menuDesc: 'The menu of Aladin Kitchen in Tbilisi: starters, charcoal kebab, Persian stews, rice dishes, fish and sweets — every dish with a photo.',
-      aboutTitle: 'About us — Aladin Kitchen, Persian Restaurant in Tbilisi',
-      aboutDesc: 'The story, the kitchen and what we hold to at Aladin Kitchen: Persian hospitality in the old town of Tbilisi, since 2015.',
+      menuDesc: 'Browse the full Aladin Kitchen menu: starters, charcoal kebab, Persian stews, rice, fish and sweets — every dish shown with its own photo.',
+      aboutTitle: 'Our Story — Aladin Kitchen, Persian Restaurant in Tbilisi',
+      aboutDesc: 'Three generations, one grill, and a set of rules that never changed: the story of Aladin Kitchen in the old town of Tbilisi, since 2015.',
       eventsTitle: 'Events — Aladin Kitchen, Persian Restaurant in Tbilisi',
-      eventsDesc: 'Live music nights, the Charshanbe Souri fire festival and the evenings that turn our dining room into something else — see what’s coming up at Aladin Kitchen.',
-      coursesTitle: 'Courses — Aladin Kitchen, Persian Restaurant in Tbilisi',
-      coursesDesc: 'Notes from the kitchen on the three courses of a Persian table — starters, the fire, and the sweet finish — and what to order when you sit down at Aladin Kitchen.',
-      contactTitle: 'Contact — Aladin Kitchen, Persian Restaurant in Tbilisi',
-      contactDesc: 'Reach Aladin Kitchen in Tbilisi: send a message for a reservation or a question, or call us directly. Address, hours and answers to common questions.'
+      eventsDesc: 'Live music, the Charshanbe Souri fire festival, and the nights our dining room turns into something else entirely — see what’s coming up.',
+      coursesTitle: 'The Courses — Aladin Kitchen, Persian Restaurant in Tbilisi',
+      coursesDesc: 'Three short reads from the kitchen on how a Persian table unfolds — starters, fire, and a sweet finish — and what to order at each turn.',
+      contactTitle: 'Contact & Reservations — Aladin Kitchen, Tbilisi',
+      contactDesc: 'Book a table, ask a question, or just say hello — reach Aladin Kitchen by phone, WhatsApp or the form below. Address, hours, and answers to common questions.'
     },
 
-    nav: { menu: 'Menu', restaurant: 'Restaurant', experience: 'Experience', visit: 'Visit', homeLabel: 'Home', about: 'About', events: 'Events', courses: 'Courses', contact: 'Contact',
-           reserve: 'Reserve', reserveLong: 'Book a table', openMenu: 'Open menu', main: 'Main navigation', home: 'Aladin Kitchen — home' },
+    nav: { menu: 'Menu', restaurant: 'Restaurant', experience: 'Experience', visit: 'Visit', homeLabel: 'Home', about: 'Our Story', events: 'Events', courses: 'Courses', contact: 'Contact',
+           reserve: 'Reserve', reserveLong: 'Book a Table', openMenu: 'Open menu', main: 'Main navigation', home: 'Aladin Kitchen — home' },
 
     hero: {
-      kicker: 'Persian kitchen · Tbilisi, since 2015',
-      tagline: 'A thousand flavours, a thousand stories.',
-      sub: 'Kebab over charcoal, khoresht from the pot, rice with a golden crust. In the heart of the old town, on Shavteli Street.',
-      ctaMenu: 'See the menu', ctaReserve: 'Book a table',
-      fact1: 'Shavteli St. 5', fact2: 'Daily 11–23', fact3: 'Halal · family run'
+      kicker: 'Persian kitchen, old town Tbilisi · since 2015',
+      tagline: 'One thousand and one flavours.',
+      sub: 'Charcoal kebab, khoresht simmered since morning, rice with a golden crust — a few steps off Shavteli Street, at the heart of the old town.',
+      ctaMenu: 'Explore the menu', ctaReserve: 'Reserve a table',
+      fact1: 'Shavteli St. 5', fact2: 'Open daily 11–23', fact3: 'Halal · family-run'
     },
 
     marquee: ['Saffron', 'Pomegranate', 'Charcoal', 'Dried lime', 'Tahdig', 'Sumac', 'Rose water', 'Pistachio'],
 
     story: {
       kicker: '01 — The house',
-      titleA: 'An evening that', titleB: 'refuses to end',
-      lead: 'Behind the old stone façade on Shavteli Street is a room where the same thing has happened for more than ten years: the grill glows from midday, the pots have been on a low flame since morning, and at some point in the evening somebody starts to sing.',
-      body: 'Our kitchen came from Isfahan and Shiraz — and picked up whatever it liked on the way to Tbilisi: the sumac of the Levant, the baharat of the Gulf, Georgian bread from the clay oven. What stays is the Persian rule: no spice pushes to the front, everything is given time.',
+      titleA: 'A table that', titleB: 'never really closes',
+      lead: 'Behind the stone façade on Shavteli Street, the same evening has played out for more than ten years: charcoal glowing since noon, pots simmering since dawn, and somewhere past sunset, someone starts to sing.',
+      body: 'Our kitchen travelled here from Isfahan and Shiraz, picking up a few things along the way — Levantine sumac, Gulf spice, Georgian bread from the clay oven. One rule survived the journey: nothing is rushed, and no single spice is allowed to shout.',
       stat1: 'Years in Tbilisi', stat2: 'Dishes on the menu', stat3: 'Hours for one Māhiche',
-      link: 'Opening hours & directions', badgeSince: 'Since', badgeCity: 'Tbilisi'
+      link: 'Hours & directions', badgeSince: 'Since', badgeCity: 'Tbilisi'
     },
 
     signature: {
       kicker: '02 — From the kitchen',
-      title: 'Four to begin with',
-      sub: 'If this is your first time here, order these. Everything else is on the menu.',
-      cta: 'Full menu — {n} dishes'
+      title: 'Start here',
+      sub: 'First time at Aladin Kitchen? These four will tell you everything you need to know. The rest is on the menu.',
+      cta: 'See all {n} dishes'
     },
 
-    quote: { text: 'Tell me what you eat, and I will tell you where you come from.', source: 'Persian saying' },
+    quote: { text: 'Patience is bitter, but its fruit is sweet.', source: 'Persian proverb' },
 
     about: {
       hero: {
-        kicker: 'About us',
-        title: 'A house that keeps its own time',
-        lead: 'Shavteli St. 5 has smelled of charcoal and saffron since 2015. This is the story of the kitchen behind it — where it came from, what it believes, and who keeps the fire going.'
+        kicker: 'About Aladin Kitchen',
+        title: 'A kitchen that runs on its own clock',
+        lead: 'Since 2015, Shavteli Street 5 has smelled of charcoal and saffron. Here is where that smell comes from — and who keeps it going.'
       },
       story: {
-        kicker: '01 — Where it started',
+        kicker: '01 — Where it began',
         titleA: 'From Isfahan', titleB: 'to the old town',
-        lead: 'The recipes travelled before we did: a grandmother’s khoresht, a father’s way with a skewer, a whole family’s sense of when the rice is ready and when it isn’t. Aladin Kitchen opened in 2015 on one idea — cook the way we were taught, and let Tbilisi in.',
-        body: 'The city gave something back. Georgian bread came out of the clay oven and onto our tables; a Levantine touch of sumac found its way into a Persian stew; the old town’s slow evenings taught us to stop rushing the tea. None of it changed what the kitchen believes — that a dish needs time more than it needs anything else.',
-        extra: 'Ten years on, the grill still glows from midday and the pots still simmer from morning. The room fills the way it always has: family first, then friends, then whoever is walking past and follows the smell inside.',
+        lead: 'The recipes arrived before we did — a grandmother’s khoresht, a father’s hand on the skewer, a family’s instinct for the exact minute the rice is ready. Aladin Kitchen opened its doors in 2015 with a simple plan: cook the way we always have, and let Tbilisi in.',
+        body: 'The city gave something back. Georgian bread found its way from the clay oven to our tables; a trace of Levantine sumac slipped into a Persian stew; the unhurried evenings of the old town taught us not to rush the tea. None of it touched the one belief the kitchen holds onto — that a dish needs time above all else.',
+        extra: 'Ten years later, the charcoal still glows from midday and the pots still simmer from dawn. The room still fills the same way it always has — family first, then friends, then whoever follows the smell in from the street.',
         stat1: 'Years in Tbilisi', stat2: 'Dishes on the menu', stat3: 'Hours for one Māhiche',
         badgeSince: 'Since', badgeCity: 'Tbilisi'
       },
       values: {
         kicker: '02 — What we hold to',
-        title: 'Three things that don’t change',
-        sub: 'Trends come and go through the old town. These three don’t move.',
-        v1title: 'Nothing rushed',
-        v1text: 'Khoresht stays on a low flame from morning. Kebab comes off the charcoal only when it is ready — not when the ticket says so.',
-        v2title: 'One spice at a time',
-        v2text: 'Saffron, sumac, dried lime, rose water — each has its moment. Our cooking makes room for one voice, not a crowd of them.',
-        v3title: 'The table is family',
-        v3text: 'However far you have come from, you sit down here the way you would at home — and you leave with more food than you ordered.'
+        title: 'Three rules that don’t bend',
+        sub: 'Everything else in the old town changes with the season. These three don’t.',
+        v1title: 'Nothing is rushed',
+        v1text: 'The khoresht has simmered since morning. The kebab leaves the charcoal when it’s ready — never when the ticket says so.',
+        v2title: 'One spice, one moment',
+        v2text: 'Saffron, sumac, dried lime, rose water — each gets its own turn. We’d rather one clear voice than a crowd of them.',
+        v3title: 'Every table is family',
+        v3text: 'However far you’ve travelled to get here, you sit down the way you would at home — and leave with more than you ordered.'
       },
       team: {
-        kicker: '03 — Who cooks for you',
-        title: 'Not one chef — three generations',
-        sub: 'The kitchen has always been a family matter. These are the hands behind it.',
-        r1title: 'The grill', r1text: 'Charcoal glowing from midday, turned by hand, never left alone.',
-        r2title: 'The pots', r2text: 'Khoresht and Ghormeh Sabzi, on a flame low enough to forget — until the smell reminds you.',
-        r3title: 'The room', r3text: 'Whoever seats you tonight has most likely fed your neighbours too.'
+        kicker: '03 — Who’s cooking',
+        title: 'Three generations, one kitchen',
+        sub: 'This has always been a family kitchen. Here’s who keeps it running.',
+        r1title: 'The grill', r1text: 'Lit since noon, turned by hand, never left unwatched.',
+        r2title: 'The pots', r2text: 'Khoresht and Ghormeh Sabzi, on a flame low enough to forget about — until the smell brings you back.',
+        r3title: 'The floor', r3text: 'Whoever seats you tonight has probably already fed half the street.'
       },
       quote: { text: 'The guest is a gift from God.', source: 'Persian proverb — the rule of this house' },
       cta: {
-        kicker: 'Come see for yourself',
-        title: 'The best explanation is a table',
-        text: 'Descriptions only go so far. Come taste the saffron yourself — we’ll keep a table warm for you.',
+        kicker: 'See it for yourself',
+        title: 'Some things you have to taste',
+        text: 'We could describe the saffron all day. Come taste it instead — we’ll have a table waiting.',
         ctaReserve: 'Book a table', ctaMenu: 'See the menu'
       }
     },
@@ -119,22 +119,22 @@ const ui = {
     contact: {
       hero: {
         kicker: 'Contact & reservations',
-        title: 'Talk to us, or book a table',
-        lead: 'For a table, a question about the menu, or a private event — write to us here, or call the number on the right. We read every message.'
+        title: 'Let’s find you a table',
+        lead: 'Questions about the menu, a reservation, or a private event — write to us below, or call the number on the right. Every message gets read.'
       },
       form: {
-        sectionKicker: 'Send a message', sectionTitle: 'Get in touch',
-        sectionSub: 'Tell us the date, the size of your party, or whatever is on your mind — we usually answer within a day.',
+        sectionKicker: 'Send us a message', sectionTitle: 'We’d love to hear from you',
+        sectionSub: 'A date, a party size, or just a question — tell us what’s on your mind. We usually reply within a day.',
         fields: { name: 'Name', email: 'Email', phone: 'Phone', topic: 'What is this about?', message: 'Message' },
         placeholders: { name: 'Your name', email: 'you@example.com', phone: '+995 …', message: 'How can we help?' },
         options: { choose: 'Please choose', enquiry: 'General enquiry', reservation: 'Reservation', other: 'Other' },
-        emailSubject: 'New message from the Aladin Kitchen contact form',
-        submit: 'Send message',
-        success: 'Thank you — your message has reached us. We usually reply within a day; for a same-day reservation it’s best to also call.',
-        error: 'Something went wrong and the message didn’t send. Please try again, or call us directly — the number is on the right.'
+        emailSubject: 'New enquiry from the Aladin Kitchen website',
+        submit: 'Send',
+        success: 'Message received — thank you. We usually reply within a day; for a same-day table, a phone call is faster.',
+        error: 'Something went wrong on our end and the message didn’t go through. Please try again, or call us directly — the number is on the right.'
       },
       faq: {
-        kicker: 'Before you write', title: 'Frequently asked questions',
+        kicker: 'Before you write', title: 'Good to know',
         items: [
           { q: 'What are your opening hours?', a: 'We are open every day: 11:00–23:00 Monday to Thursday and on Sunday, 11:00–24:00 on Friday and Saturday.' },
           { q: 'Do you take reservations, and for how many people?', a: 'Yes — through this form, by phone or on WhatsApp. For groups larger than eight, a quick call helps us prepare the right table and menu.' },
@@ -147,64 +147,64 @@ const ui = {
     },
 
     eventsPage: {
-      kicker: 'Moments', title: 'Our Events',
-      lead: 'A few nights a year, the dining room becomes something else — a concert hall, a circle around the fire. Here is what’s on the calendar.',
-      sectionKicker: 'On the calendar', sectionTitle: 'Make a memory'
+      kicker: 'What’s on', title: 'Events at Aladin Kitchen',
+      lead: 'A handful of nights each year, our dining room turns into a concert hall — or a circle around the fire. Here’s what’s coming up.',
+      sectionKicker: 'On the calendar', sectionTitle: 'Nights worth planning around'
     },
 
     coursesPage: {
-      kicker: 'From the kitchen, in words', title: 'Courses',
-      lead: 'A Persian table doesn’t rush — it arrives in courses. Three short reads on what comes first, what comes off the coals, and what closes the evening.',
-      sectionKicker: 'The journal', sectionTitle: 'Three courses, three stories', sub: 'Each one ends where the dish begins — on the menu.',
-      cta: 'Read the course'
+      kicker: 'Notes from the kitchen', title: 'The Courses',
+      lead: 'A Persian table takes its time — it arrives one course at a time. Three short stories on what comes first, what comes off the fire, and what closes the evening.',
+      sectionKicker: 'The journal', sectionTitle: 'Three courses, three stories', sub: 'Each story ends where a dish begins — on the menu.',
+      cta: 'Read more'
     },
 
     courses: {
-      c1tag: 'Starters', c1title: 'What comes to the table first',
-      c1text: 'Before the kebab, before the rice — a spread of small plates finds its way to the table: kashk-e bademjan still warm from the pan, bright herbs, bread from the tonoor. This is where a Persian meal begins to slow down.',
+      c1tag: 'Starters', c1title: 'What lands on the table first',
+      c1text: 'Before the kebab, before the rice, comes a spread of small plates — kashk-e bademjan straight from the pan, fresh herbs, warm bread from the tonoor. This is where a Persian meal learns to slow down.',
       c1meta: 'Chapter 01 · Mezze & small plates',
-      c2tag: 'Fish & Seafood', c2title: 'What the fire is for',
-      c2text: 'Wild bass, octopus, Gulf prawns — the coals decide nothing on their own; the hand tending the grate does. Citrus marinade, delicate embers, and a final moment over open charcoal are what separate ordinary fish from ours.',
-      c2meta: 'Chapter 02 · From the catch & charcoal',
+      c2tag: 'Fish & Seafood', c2title: 'What the fire is really for',
+      c2text: 'Sea bass, octopus, prawns from the Gulf — the charcoal decides nothing on its own; the hand tending it does. A citrus marinade, gentle embers, and one last minute over open flame set our fish apart.',
+      c2meta: 'Chapter 02 · Catch & charcoal',
       c3tag: 'Sweets & digestifs',
-      c3title: 'How an evening ends here',
-      c3text: 'No course rushes to a close. Chilled mastic liqueur, warm semolina halva with lemon zest, a last unhurried half hour at the table — the part of the meal nobody orders and everybody remembers.',
+      c3title: 'How the evening winds down',
+      c3text: 'Nothing here rushes to a close. Chilled mastic liqueur, warm semolina halva with lemon zest, one more unhurried half hour at the table — the part of the meal no one orders but everyone remembers.',
       c3meta: 'Chapter 03 · Sweet & samovar'
     },
 
     gallery: {
-      kicker: '03 — At the table', title: 'What it looks like here',
-      c1: 'Lamb chops in the Shandiz manner, marinated 24 hours.',
-      c2: 'Black tea from the samovar, baklava with pistachio.',
-      c3: 'Aubergine with fermented whey, mint oil and fried onions.',
-      c4: 'The entrance in the old town of Tbilisi.',
-      c5: 'Prawns, squid and the fish of the day.',
-      c6: 'A whole dorado over charcoal, stuffed with herbs.'
+      kicker: '03 — At the table', title: 'A look inside',
+      c1: 'Shandiz-style lamb chops, marinated for 24 hours.',
+      c2: 'Black tea from the samovar, pistachio baklava on the side.',
+      c3: 'Aubergine with fermented whey, mint oil and fried onion.',
+      c4: 'The entrance, old town Tbilisi.',
+      c5: 'Prawns, squid, and today’s catch.',
+      c6: 'Whole dorado over charcoal, stuffed with fresh herbs.'
     },
 
     events: {
-      kicker: '04 — Experience', title: 'Music, feasts, long evenings',
-      sub: 'At Nowruz, at Charshanbe Souri and on perfectly ordinary Fridays, there is live music here. Book early on those nights — the room fills fast.',
-      e1date: '19 March · Nowruz', e1title: 'Live concert for the new year',
-      e1text: 'Three musicians, one evening, the whole house: Persian classics live from 8 pm, with the kitchen’s Nowruz menu.',
+      kicker: '04 — Experience', title: 'Music, feasts, long nights',
+      sub: 'Nowruz, Charshanbe Souri, and the occasional ordinary Friday — live music finds its way into the room. Book ahead; these nights fill fast.',
+      e1date: '19 March · Nowruz', e1title: 'A live concert for the new year',
+      e1text: 'Three musicians, one evening, the whole house singing along — Persian classics live from 8pm, paired with our Nowruz menu.',
       e2date: 'Last Tuesday of the year', e2title: 'Jashn-e Charshanbe Souri',
-      e2text: 'The fire festival before Nowruz: Ajil-e Moshkel-Gosha, music and a menu that sees the winter out.',
-      cta: 'Reserve a place'
+      e2text: 'The fire festival before Nowruz — Ajil-e Moshkel-Gosha, live music, and a menu that sends the winter off properly.',
+      cta: 'Reserve your spot'
     },
 
     visit: {
-      kicker: '05 — Visit', title: 'Come and see us',
-      sub: 'Two minutes from the Metekhi bridge, in the middle of the old town. We serve inside and out — for larger groups, a quick call is best.',
+      kicker: '05 — Visit us', title: 'Find your way here',
+      sub: 'Two minutes from the Metekhi Bridge, right in the old town. Indoor and outdoor seating — for larger groups, a quick call helps.',
       address: 'Address', contact: 'Contact', hours: 'Opening hours',
-      whatsapp: 'Also on WhatsApp', map: 'On the map',
+      whatsapp: 'Also on WhatsApp', map: 'Open in maps',
       street: 'Shavteli St. 5', city: '0105 Tbilisi, Georgia',
       row1: 'Mon – Thu', row2: 'Fri – Sat', row3: 'Sunday',
       ctaReserve: 'Book a table', ctaMenu: 'Menu'
     },
 
     instagram: {
-      kicker: '06 — Follow us', title: 'Fresh from the kitchen, on Instagram',
-      sub: 'New plates, evenings and behind-the-scenes moments — posted as they happen.',
+      kicker: '06 — Follow along', title: 'Fresh from the kitchen',
+      sub: 'New dishes, evenings, and behind-the-scenes moments — posted as they happen.',
       cta: 'Follow @aladinkitchen.ge'
     },
 
@@ -213,21 +213,21 @@ const ui = {
       pages: 'Pages', visit: 'Visit', contact: 'Contact',
       hoursLink: 'Opening hours', directions: 'Directions', reservation: 'Reservation',
       gallery: 'Gallery',
-      copyright: '© {y} Aladin Kitchen Restaurant, Tbilisi',
+      copyright: '© {y} Aladin Kitchen, Tbilisi',
       credit: 'Designed on the “Classical” styleguide'
     },
 
     menuPage: {
       kicker: 'Aladin Kitchen · Tbilisi', title: 'Menu',
-      lead: '{c} chapters, {n} dishes. Everything is cooked to order — kebab comes off the charcoal, khoresht has been on the flame since morning. Every dish is shown with the photo from our own kitchen.',
-      priceNotice: 'Prices are being added right now. We are glad to give you current prices over the phone.',
-      catNav: 'Menu categories', searchLabel: 'Search for a dish', searchPlaceholder: 'Search a dish…',
+      lead: '{c} chapters, {n} dishes — all cooked to order. The kebab comes straight off the charcoal, the khoresht has simmered since morning. Every dish shown with its own photo from our kitchen.',
+      priceNotice: 'Prices are being added right now — call us and we’ll gladly quote you on the spot.',
+      catNav: 'Menu categories', searchLabel: 'Search the menu', searchPlaceholder: 'Search for a dish…',
       filterLabel: 'Filter',
-      noResultsTitle: 'No dish found.', noResultsSub: 'Try another spelling — or clear all filters.',
+      noResultsTitle: 'No dish matches that.', noResultsSub: 'Try a different spelling — or clear your filters.',
       reset: 'Clear filters',
       zoom: 'Enlarge photo of {name}',
       outroKicker: 'Enjoy your meal', outroTitle: 'Nooshe jan',
-      outroText: 'Allergies, intolerances, or a wish for the table? Tell us and the kitchen will work around it.',
+      outroText: 'Allergies, intolerances, or a request for the table? Just tell us — the kitchen will work around it.',
       ctaReserve: 'Book a table', ctaVisit: 'Directions & hours'
     },
 
@@ -238,30 +238,30 @@ const ui = {
   fa: {
     brandSub: 'رستوران ایرانی',
     langLabel: 'زبان',
-    skipToContent: 'رفتن به محتوا',
+    skipToContent: 'رفتن به محتوای اصلی',
 
     meta: {
-      homeTitle: 'Aladin Kitchen — رستوران ایرانی در تفلیس',
-      homeDesc: 'آشپزی ایرانی در بافت قدیم تفلیس: کباب روی زغال، خورش، چلو زعفرانی و چای سماور. خیابان شاوتلی ۵.',
+      homeTitle: 'Aladin Kitchen — رستوران ایرانی در بافت قدیم تفلیس',
+      homeDesc: 'کباب روی زغال، خورشی که از صبح روی شعله است، چلوی زعفرانی و چای از سماور — آشپزی ایرانی در خیابان شاوتلی، از سال ۲۰۱۵.',
       menuTitle: 'منو — رستوران ایرانی Aladin Kitchen، تفلیس',
-      menuDesc: 'منوی رستوران Aladin Kitchen تفلیس: پیش‌غذا، کباب، خورش، پلو، ماهی و شیرینی — با عکس هر غذا.',
-      aboutTitle: 'درباره ما — رستوران ایرانی Aladin Kitchen، تفلیس',
-      aboutDesc: 'داستان، آشپزخانه و آنچه در Aladin Kitchen به آن پایبندیم: مهمان‌نوازی ایرانی در بافت قدیم تفلیس، از سال ۲۰۱۵.',
+      menuDesc: 'منوی کامل Aladin Kitchen را ببینید: پیش‌غذا، کباب زغالی، خورش‌های ایرانی، پلو، ماهی و شیرینی — هر غذا با عکس خودش.',
+      aboutTitle: 'داستان ما — رستوران ایرانی Aladin Kitchen، تفلیس',
+      aboutDesc: 'سه نسل، یک منقل و چند قاعده که هرگز عوض نشد: داستان Aladin Kitchen در بافت قدیم تفلیس، از سال ۲۰۱۵.',
       eventsTitle: 'رویدادها — رستوران ایرانی Aladin Kitchen، تفلیس',
-      eventsDesc: 'شب‌های موسیقی زنده، جشن آتش چهارشنبه‌سوری و شب‌هایی که سالن ما را به چیز دیگری تبدیل می‌کنند — ببینید در Aladin Kitchen چه در راه است.',
+      eventsDesc: 'موسیقی زنده، جشن آتش چهارشنبه‌سوری، و شب‌هایی که سالن ما را به‌کل چیز دیگری می‌کند — ببینید چه در راه است.',
       coursesTitle: 'مراحل سفره — رستوران ایرانی Aladin Kitchen، تفلیس',
-      coursesDesc: 'یادداشت‌هایی از آشپزخانه درباره سه مرحله سفره ایرانی — پیش‌غذا، آتش و پایان شیرین — و اینکه در Aladin Kitchen چه سفارش دهید.',
-      contactTitle: 'تماس — رستوران ایرانی Aladin Kitchen، تفلیس',
-      contactDesc: 'راه‌های تماس با Aladin Kitchen در تفلیس: برای رزرو یا سوال پیام بفرستید یا مستقیم تماس بگیرید. نشانی، ساعت کار و پاسخ پرسش‌های پرتکرار.'
+      coursesDesc: 'سه یادداشت کوتاه از آشپزخانه درباره اینکه سفره ایرانی چطور باز می‌شود — پیش‌غذا، آتش و پایانی شیرین — و در هر مرحله چه سفارش دهید.',
+      contactTitle: 'تماس و رزرو — Aladin Kitchen، تفلیس',
+      contactDesc: 'میز رزرو کنید، سوالی بپرسید یا فقط سلام کنید — با تلفن، واتس‌اپ یا فرم زیر به Aladin Kitchen برسید. نشانی، ساعت کار و پاسخ پرسش‌های پرتکرار.'
     },
 
-    nav: { menu: 'منو', restaurant: 'رستوران', experience: 'برنامه‌ها', visit: 'نشانی', homeLabel: 'خانه', about: 'درباره ما', events: 'رویدادها', courses: 'مراحل سفره', contact: 'تماس',
+    nav: { menu: 'منو', restaurant: 'رستوران', experience: 'تجربه', visit: 'نشانی', homeLabel: 'خانه', about: 'داستان ما', events: 'رویدادها', courses: 'مراحل سفره', contact: 'تماس',
            reserve: 'رزرو', reserveLong: 'رزرو میز', openMenu: 'باز کردن منو', main: 'ناوبری اصلی', home: 'Aladin Kitchen — صفحه اصلی' },
 
     hero: {
-      kicker: 'آشپزی ایرانی · تفلیس، از ۲۰۱۵',
-      tagline: 'هزار طعم، هزار قصه.',
-      sub: 'کباب روی زغال، خورش از دیگ، چلو با ته‌دیگ طلایی. در قلب بافت قدیم تفلیس، خیابان شاوتلی.',
+      kicker: 'آشپزی ایرانی، بافت قدیم تفلیس · از ۲۰۱۵',
+      tagline: 'هزار و یک طعم.',
+      sub: 'کباب روی زغال، خورشی که از صبح روی شعله است، برنجی با ته‌دیگ طلایی — چند قدم آن‌طرف‌تر از خیابان شاوتلی، در دل بافت قدیم.',
       ctaMenu: 'دیدن منو', ctaReserve: 'رزرو میز',
       fact1: 'خیابان شاوتلی ۵', fact2: 'هر روز ۱۱ تا ۲۳', fact3: 'حلال · خانوادگی'
     },
@@ -270,61 +270,61 @@ const ui = {
 
     story: {
       kicker: '۰۱ — این خانه',
-      titleA: 'شبی که', titleB: 'تمام نمی‌شود',
-      lead: 'پشت نمای سنگی خیابان شاوتلی اتاقی است که بیش از ده سال است همین اتفاق در آن می‌افتد: منقل از ظهر گر می‌گیرد، دیگ‌ها از صبح روی شعله ملایم‌اند، و جایی در دل شب کسی شروع به خواندن می‌کند.',
-      body: 'آشپزخانه ما از اصفهان و شیراز آمد — و در راه تفلیس هر چه پسندید با خود آورد: سماق شام، بهارات خلیج، نان گرجی از تنور. آنچه می‌ماند همان قاعده ایرانی است: هیچ ادویه‌ای خود را جلو نمی‌اندازد، همه چیز وقت می‌خواهد.',
+      titleA: 'سفره‌ای که', titleB: 'واقعاً تمام نمی‌شود',
+      lead: 'پشت نمای سنگی خیابان شاوتلی، بیش از ده سال است همان شب تکرار می‌شود: زغال از ظهر گر می‌گیرد، دیگ‌ها از سپیده‌دم روی شعله‌اند، و جایی بعد از غروب کسی شروع به خواندن می‌کند.',
+      body: 'آشپزخانه ما از اصفهان و شیراز به این‌جا رسید و در راه چیزهایی با خود آورد: سماق شام، ادویه خلیج، نان گرجی از تنور. یک قاعده از این سفر جان سالم به‌در برد: هیچ‌چیز عجله ندارد و هیچ ادویه‌ای اجازه فریاد زدن ندارد.',
       stat1: 'سال در تفلیس', stat2: 'غذا در منو', stat3: 'ساعت برای یک ماهیچه',
       link: 'ساعت کار و نشانی', badgeSince: 'از سال', badgeCity: 'تفلیس'
     },
 
     signature: {
       kicker: '۰۲ — از آشپزخانه',
-      title: 'چهار غذا برای شروع',
-      sub: 'اگر بار اول است که به ما سر می‌زنید، این‌ها را سفارش دهید. باقی در منو هست.',
-      cta: 'همه منو — {n} غذا'
+      title: 'از این‌ها شروع کنید',
+      sub: 'اولین بار است می‌آیید؟ این چهار غذا همه‌چیز را می‌گویند. بقیه در منوست.',
+      cta: 'دیدن همه {n} غذا'
     },
 
-    quote: { text: 'بگو چه می‌خوری تا بگویم اهل کجایی.', source: 'ضرب‌المثل ایرانی' },
+    quote: { text: 'صبر تلخ است، اما میوه‌اش شیرین است.', source: 'ضرب‌المثل ایرانی' },
 
     about: {
       hero: {
-        kicker: 'درباره ما',
-        title: 'خانه‌ای با ساعت خودش',
-        lead: 'خیابان شاوتلی ۵ از سال ۲۰۱۵ بوی زغال و زعفران می‌دهد. این داستان آشپزخانه‌ای است که پشت آن است — از کجا آمد، به چه پایبند است، و چه کسی آتشش را روشن نگه می‌دارد.'
+        kicker: 'درباره Aladin Kitchen',
+        title: 'آشپزخانه‌ای که ساعت خودش را دارد',
+        lead: 'خیابان شاوتلی ۵ از سال ۲۰۱۵ بوی زغال و زعفران می‌دهد. این‌جا می‌گوییم این بو از کجا می‌آید — و چه کسی زنده نگهش می‌دارد.'
       },
       story: {
         kicker: '۰۱ — از کجا شروع شد',
         titleA: 'از اصفهان', titleB: 'تا بافت قدیم',
-        lead: 'دستورها پیش از ما به راه افتادند: خورش مادربزرگی، دست پدری روی سیخ، و حس یک خانواده از اینکه برنج کی آماده است و کی نه. Aladin Kitchen در سال ۲۰۱۵ با یک فکر باز شد — همان‌طور بپزیم که یادمان داده‌اند، و بگذاریم تفلیس هم وارد شود.',
-        body: 'شهر هم چیزی به ما داد. نان گرجی از تنور به سفره‌مان رسید؛ رد پای سماق شام در خورشی ایرانی نشست؛ شب‌های آرام بافت قدیم یادمان داد چای را عجله نکنیم. هیچ‌کدام باور آشپزخانه را عوض نکرد: یک غذا از هر چیزی بیشتر به وقت نیاز دارد.',
-        extra: 'ده سال گذشته، منقل هنوز از ظهر گر می‌گیرد و دیگ‌ها هنوز از صبح روی شعله‌اند. سالن همان‌طور پر می‌شود که همیشه بوده: اول خانواده، بعد دوستان، بعد هر کسی که از جلوی در رد می‌شود و بوی غذا او را داخل می‌کشد.',
+        lead: 'دستورها پیش از ما رسیدند: خورش مادربزرگ، دست پدر روی سیخ، حس یک خانواده از این‌که برنج دقیقاً کِی آماده است. Aladin Kitchen در سال ۲۰۱۵ با یک نقشه ساده باز شد: همان‌طور بپزیم که همیشه پخته‌ایم، و بگذاریم تفلیس هم وارد شود.',
+        body: 'شهر هم چیزی پس داد. نان گرجی از تنور راهش را به سفره‌مان پیدا کرد؛ رد سماق شام در خورشی ایرانی نشست؛ شب‌های آرام بافت قدیم یادمان داد چای را عجله نکنیم. هیچ‌کدام چیزی را که آشپزخانه به آن باور دارد عوض نکرد — این‌که یک غذا از هر چیز دیگری بیشتر به وقت نیاز دارد.',
+        extra: 'ده سال بعد، زغال هنوز از ظهر گر می‌گیرد و دیگ‌ها هنوز از سپیده‌دم می‌جوشند. سالن هنوز همان‌طور پر می‌شود که همیشه بوده: اول خانواده، بعد دوستان، بعد هرکسی که از خیابان بوی غذا را دنبال می‌کند.',
         stat1: 'سال در تفلیس', stat2: 'غذا در منو', stat3: 'ساعت برای یک ماهیچه',
         badgeSince: 'از سال', badgeCity: 'تفلیس'
       },
       values: {
         kicker: '۰۲ — به چه پایبندیم',
-        title: 'سه چیزی که عوض نمی‌شود',
-        sub: 'مد در بافت قدیم می‌آید و می‌رود. این سه تا جایشان را عوض نمی‌کنند.',
+        title: 'سه قاعده‌ای که خم نمی‌شود',
+        sub: 'در بافت قدیم همه‌چیز با فصل عوض می‌شود. این سه تا نه.',
         v1title: 'هیچ‌چیز با عجله نه',
-        v1text: 'خورش از صبح روی شعله ملایم می‌ماند. کباب فقط وقتی از روی زغال برداشته می‌شود که آماده باشد — نه وقتی سفارش عجله دارد.',
-        v2title: 'یک ادویه در هر زمان',
-        v2text: 'زعفران، سماق، لیمو عمانی، گلاب — هرکدام نوبت خودش را دارد. آشپزی ما جا برای یک صدا باز می‌کند، نه ازدحامی از صداها.',
-        v3title: 'سفره یعنی خانواده',
-        v3text: 'از هر جا آمده باشید، همین‌جا مثل خانه خودتان می‌نشینید — و بیشتر از آنچه سفارش داده‌اید، با خودتان می‌برید.'
+        v1text: 'خورش از صبح روی شعله ملایم است. کباب فقط وقتی از روی زغال برداشته می‌شود که آماده باشد — نه وقتی سفارش عجله دارد.',
+        v2title: 'یک ادویه، یک لحظه',
+        v2text: 'زعفران، سماق، لیمو عمانی، گلاب — هرکدام نوبت خودش را دارد. ترجیح می‌دهیم یک صدای واضح باشد تا ازدحامی از صداها.',
+        v3title: 'هر سفره یعنی خانواده',
+        v3text: 'از هر جا آمده باشید، همین‌جا مثل خانه خودتان می‌نشینید — و بیشتر از آنچه سفارش داده‌اید با خود می‌برید.'
       },
       team: {
-        kicker: '۰۳ — چه کسی برایتان می‌پزد',
-        title: 'یک آشپز نه — سه نسل',
-        sub: 'آشپزخانه همیشه کار خانواده بوده. این‌ها دست‌هایی هستند که پشت آنند.',
-        r1title: 'منقل', r1text: 'زغالی که از ظهر گر می‌گیرد، با دست چرخانده می‌شود و هرگز تنها نمی‌ماند.',
-        r2title: 'دیگ‌ها', r2text: 'خورش و قورمه‌سبزی، روی شعله‌ای آن‌قدر ملایم که فراموشش می‌کنید — تا بویش یادتان بیاورد.',
-        r3title: 'سالن', r3text: 'هرکس امشب شما را بنشاند، به احتمال زیاد همسایه‌تان را هم غذا داده.'
+        kicker: '۰۳ — چه کسی می‌پزد',
+        title: 'سه نسل، یک آشپزخانه',
+        sub: 'این‌جا همیشه کار خانواده بوده. این‌ها کسانی‌اند که آن را می‌چرخانند.',
+        r1title: 'منقل', r1text: 'از ظهر روشن است، با دست چرخانده می‌شود، هرگز بی‌نگاه نمی‌ماند.',
+        r2title: 'دیگ‌ها', r2text: 'خورش و قورمه‌سبزی روی شعله‌ای آن‌قدر آرام که فراموشش می‌کنید — تا بویش یادتان بیاورد.',
+        r3title: 'سالن', r3text: 'هرکس امشب شما را می‌نشاند، به احتمال زیاد نیمی از خیابان را هم غذا داده.'
       },
       quote: { text: 'مهمان، هدیه خداست.', source: 'ضرب‌المثل ایرانی — قانون این خانه' },
       cta: {
-        kicker: 'بیایید خودتان ببینید',
-        title: 'بهترین توضیح، یک میز است',
-        text: 'توضیح تا جایی پیش می‌رود. بیایید خودتان طعم زعفران را بچشید — یک میز برایتان گرم نگه می‌داریم.',
+        kicker: 'خودتان ببینید',
+        title: 'بعضی چیزها را باید چشید',
+        text: 'می‌توانیم تمام روز از زعفران بگوییم. به‌جایش بیایید بچشیدش — یک میز برایتان آماده نگه می‌داریم.',
         ctaReserve: 'رزرو میز', ctaMenu: 'دیدن منو'
       }
     },
@@ -334,81 +334,81 @@ const ui = {
     contact: {
       hero: {
         kicker: 'تماس و رزرو',
-        title: 'با ما حرف بزنید، یا میز رزرو کنید',
-        lead: 'برای رزرو میز، سوالی درباره منو یا یک جشن خصوصی — همین‌جا برایمان بنویسید، یا با شماره کنار صفحه تماس بگیرید. هر پیامی را می‌خوانیم.'
+        title: 'بیایید یک میز برایتان پیدا کنیم',
+        lead: 'سوال درباره منو، رزرو میز یا یک جشن خصوصی — پایین برایمان بنویسید یا با شماره سمت راست تماس بگیرید. هر پیامی خوانده می‌شود.'
       },
       form: {
-        sectionKicker: 'پیام بفرستید', sectionTitle: 'در تماس باشید',
-        sectionSub: 'تاریخ، تعداد نفرات یا هر چیزی که در ذهن دارید را بنویسید — معمولاً ظرف یک روز پاسخ می‌دهیم.',
+        sectionKicker: 'برایمان پیام بفرستید', sectionTitle: 'دوست داریم از شما بشنویم',
+        sectionSub: 'یک تاریخ، تعداد نفرات، یا فقط یک سوال — بگویید چه در ذهن دارید. معمولاً ظرف یک روز پاسخ می‌دهیم.',
         fields: { name: 'نام', email: 'ایمیل', phone: 'تلفن', topic: 'موضوع پیام', message: 'پیام' },
         placeholders: { name: 'نام شما', email: 'you@example.com', phone: '+995 …', message: 'چطور می‌توانیم کمک کنیم؟' },
         options: { choose: 'انتخاب کنید', enquiry: 'سوال عمومی', reservation: 'رزرو میز', other: 'موضوع دیگر' },
-        emailSubject: 'پیام جدید از فرم تماس Aladin Kitchen',
-        submit: 'ارسال پیام',
-        success: 'سپاسگزاریم — پیام شما به دست ما رسید. معمولاً ظرف یک روز پاسخ می‌دهیم؛ برای رزرو همان روز بهتر است تماس بگیرید.',
-        error: 'مشکلی پیش آمد و پیام ارسال نشد. لطفاً دوباره امتحان کنید یا مستقیم با ما تماس بگیرید — شماره کنار صفحه است.'
+        emailSubject: 'پیام جدید از سایت Aladin Kitchen',
+        submit: 'ارسال',
+        success: 'پیام رسید — سپاسگزاریم. معمولاً ظرف یک روز پاسخ می‌دهیم؛ برای میز همان روز، تماس تلفنی سریع‌تر است.',
+        error: 'مشکلی پیش آمد و پیام ارسال نشد. دوباره امتحان کنید یا مستقیم با ما تماس بگیرید — شماره کنار صفحه است.'
       },
       faq: {
-        kicker: 'پیش از نوشتن', title: 'پرسش‌های پرتکرار',
+        kicker: 'پیش از نوشتن', title: 'خوب است بدانید',
         items: [
           { q: 'ساعت کاری‌تان چیست؟', a: 'هر روز باز هستیم: دوشنبه تا پنجشنبه و یکشنبه از ۱۱ تا ۲۳، جمعه و شنبه از ۱۱ تا ۲۴.' },
-          { q: 'رزرو می‌گیرید؟ برای چند نفر؟', a: 'بله — از همین فرم، تلفن یا واتس‌اپ. برای گروه‌های بیش از هشت نفر، یک تماس کوتاه کمک می‌کند میز و منوی مناسب را آماده کنیم.' },
-          { q: 'آشپزخانه حلال است؟ حساسیت غذایی را در نظر می‌گیرید؟', a: 'بله، آشپزخانه ما حلال است. حساسیت یا رژیم غذایی خود را در پیام یا هنگام رزرو بگویید تا آشپزخانه هماهنگ کند.' },
-          { q: 'ارسال یا بیرون‌بر دارید؟', a: 'بیرون‌بر داریم — از قبل تماس بگیرید تا آماده باشد. برای ارسال در تفلیس، درباره مناطق و همکاران فعلی تلفنی بپرسید.' },
-          { q: 'دقیقاً کجا هستید؟ پارکینگ دارید؟', a: 'خیابان شاوتلی ۵، دو دقیقه تا کلیسای سیونی در بافت قدیم. پارکینگ خیابانی محدود است — شب‌های شلوغ، تاکسی یا پیاده‌روی کوتاه راحت‌تر است.' },
-          { q: 'همراه بچه می‌شود آمد؟', a: 'با کمال میل — رستورانی خانوادگی هستیم. هنگام رزرو صندلی کودک بخواهید تا برایتان آماده کنیم.' }
+          { q: 'میز رزرو می‌کنید؟ برای چند نفر؟', a: 'بله — از همین فرم، تلفن یا واتس‌اپ. برای گروه‌های بیش از هشت نفر، یک تماس کوتاه کمک می‌کند میز و منوی درست را آماده کنیم.' },
+          { q: 'آشپزخانه حلال است؟ حساسیت غذایی را در نظر می‌گیرید؟', a: 'بله، آشپزخانه ما حلال است. حساسیت یا رژیم غذایی خود را در پیام یا هنگام رزرو بگویید، آشپزخانه هماهنگ می‌شود.' },
+          { q: 'ارسال یا بیرون‌بر دارید؟', a: 'بیرون‌بر داریم — از قبل زنگ بزنید تا آماده باشد. برای ارسال در تفلیس تلفنی درباره مناطق و همکاران فعلی بپرسید.' },
+          { q: 'دقیقاً کجا هستید؟ پارکینگ دارید؟', a: 'خیابان شاوتلی ۵، دو دقیقه تا کلیسای سیونی در بافت قدیم. پارکینگ خیابانی محدود است؛ شب‌های شلوغ تاکسی یا پیاده‌روی کوتاه راحت‌تر است.' },
+          { q: 'همراه بچه می‌شود آمد؟', a: 'با کمال میل — رستورانی خانوادگی هستیم. هنگام رزرو صندلی کودک بخواهید تا آماده باشد.' }
         ]
       }
     },
 
     eventsPage: {
-      kicker: 'لحظه‌ها', title: 'رویدادهای ما',
-      lead: 'چند شب در سال، سالن ما به چیز دیگری تبدیل می‌شود — سالن کنسرت، یا حلقه‌ای دور آتش. این‌هاست آنچه در تقویم داریم.',
-      sectionKicker: 'در تقویم', sectionTitle: 'یک خاطره بسازید'
+      kicker: 'چه خبر است', title: 'رویدادهای Aladin Kitchen',
+      lead: 'چند شب در سال، سالن ما به چیز دیگری تبدیل می‌شود — سالن کنسرت، یا حلقه‌ای دور آتش. این‌هاست آنچه در راه است.',
+      sectionKicker: 'در تقویم', sectionTitle: 'شب‌هایی که ارزش برنامه‌ریزی دارند'
     },
 
     coursesPage: {
-      kicker: 'از آشپزخانه، به قلم', title: 'مراحل سفره',
-      lead: 'سفره ایرانی عجله ندارد — مرحله به مرحله می‌آید. سه یادداشت کوتاه درباره آنچه اول می‌آید، آنچه از آتش برمی‌خیزد، و آنچه شب را می‌بندد.',
-      sectionKicker: 'یادداشت‌ها', sectionTitle: 'سه مرحله، سه قصه', sub: 'هر یادداشت همان‌جا تمام می‌شود که غذا در منو شروع می‌شود.',
-      cta: 'خواندن یادداشت'
+      kicker: 'یادداشت‌های آشپزخانه', title: 'مراحل سفره',
+      lead: 'سفره ایرانی وقت می‌گیرد — مرحله به مرحله باز می‌شود. سه یادداشت کوتاه درباره آنچه اول می‌آید، آنچه از آتش برمی‌خیزد، و آنچه شب را می‌بندد.',
+      sectionKicker: 'دفتر یادداشت', sectionTitle: 'سه مرحله، سه قصه', sub: 'هر یادداشت همان‌جا تمام می‌شود که غذا در منو شروع می‌شود.',
+      cta: 'ادامه مطلب'
     },
 
     courses: {
       c1tag: 'پیش‌غذا', c1title: 'آنچه اول به سفره می‌رسد',
-      c1text: 'پیش از کباب، پیش از برنج — چند بشقاب کوچک راهشان را به سفره باز می‌کنند: کشک بادمجان هنوز گرم از تابه، سبزی‌های تازه، نان از تنور. اینجاست که غذای ایرانی آرام آرام شروع می‌شود.',
+      c1text: 'پیش از کباب، پیش از برنج، چند بشقاب کوچک راهشان را باز می‌کنند: کشک بادمجان تازه از تابه، سبزی تازه، نان گرم از تنور. این‌جاست که سفره ایرانی یاد می‌گیرد آرام شود.',
       c1meta: 'فصل ۰۱ · مزه و پیش‌غذا',
-      c2tag: 'کباب', c2title: 'آتش برای چیست',
-      c2text: 'بختیاری، کوبیده، برگ — زغال به تنهایی چیزی تصمیم نمی‌گیرد؛ دستی که سیخ را می‌چرخاند تصمیم می‌گیرد. مزه‌دار کردن، زمان‌بندی و آن یک دقیقه آخر روی زغال باز، کباب خوب را از کباب ما جدا می‌کند.',
-      c2meta: 'فصل ۰۲ · از روی زغال',
-      c3tag: 'دسر و چای', c3title: 'اینجا شب چطور تمام می‌شود',
-      c3text: 'هیچ مرحله‌ای با عجله تمام نمی‌شود. چای سیاه از سماور، باقلوای پسته، نیم‌ساعت آخر بی‌عجله سر میز — بخشی از غذا که کسی سفارش نمی‌دهد اما همه به یاد می‌آورند.',
+      c2tag: 'ماهی و غذای دریایی', c2title: 'آتش واقعاً برای چیست',
+      c2text: 'ماهی سیباس، اختاپوس، میگوی خلیج — زغال به‌تنهایی چیزی تصمیم نمی‌گیرد؛ دستی که آن را می‌چرخاند تصمیم می‌گیرد. مزه‌دار کردن با مرکبات، جرقه‌ای ملایم، و یک دقیقه آخر روی آتش باز، ماهی ما را جدا می‌کند.',
+      c2meta: 'فصل ۰۲ · صید و زغال',
+      c3tag: 'شیرینی و هاضم', c3title: 'اینجا شب چطور فرو می‌نشیند',
+      c3text: 'هیچ مرحله‌ای این‌جا با عجله تمام نمی‌شود. مصطکی سرد، حلوای گندم گرم با رنده لیمو، نیم‌ساعت آخر بی‌عجله سر میز — بخشی از غذا که کسی سفارش نمی‌دهد اما همه به یاد می‌آورند.',
       c3meta: 'فصل ۰۳ · شیرینی و سماور'
     },
 
     gallery: {
-      kicker: '۰۳ — سر سفره', title: 'اینجا این شکلی است',
+      kicker: '۰۳ — سر سفره', title: 'نگاهی از داخل',
       c1: 'راسته گوسفند به سبک شاندیز، ۲۴ ساعت مزه‌دار شده.',
-      c2: 'چای سیاه از سماور، باقلوای پسته.',
-      c3: 'بادمجان با کشک، نعنا داغ و پیاز داغ.',
-      c4: 'ورودی رستوران در بافت قدیم تفلیس.',
-      c5: 'میگو، ماهی مرکب و ماهی روز.',
-      c6: 'ماهی دورادو کامل روی زغال، پر شده با سبزی.'
+      c2: 'چای سیاه از سماور، در کنارش باقلوای پسته.',
+      c3: 'بادمجان با کشک، روغن نعنا و پیاز داغ.',
+      c4: 'ورودی، بافت قدیم تفلیس.',
+      c5: 'میگو، ماهی مرکب، و صید امروز.',
+      c6: 'دورادوی کامل روی زغال، پر شده با سبزی تازه.'
     },
 
     events: {
-      kicker: '۰۴ — برنامه‌ها', title: 'موسیقی، جشن، شب‌های بلند',
-      sub: 'نوروز، چهارشنبه‌سوری و جمعه‌های معمولی، اینجا موسیقی زنده اجرا می‌شود. آن شب‌ها زودتر رزرو کنید — سالن سریع پر می‌شود.',
-      e1date: '۱۹ مارس · نوروز', e1title: 'کنسرت زنده نوروزی',
-      e1text: 'سه نوازنده، یک شب، تمام سالن: کلاسیک‌های ایرانی از ساعت ۲۰، همراه منوی نوروزی آشپزخانه.',
+      kicker: '۰۴ — تجربه', title: 'موسیقی، جشن، شب‌های بلند',
+      sub: 'نوروز، چهارشنبه‌سوری، و گاهی یک جمعه معمولی — موسیقی زنده راهش را به سالن پیدا می‌کند. زودتر رزرو کنید؛ این شب‌ها زود پر می‌شوند.',
+      e1date: '۱۹ مارس · نوروز', e1title: 'کنسرت زنده برای سال نو',
+      e1text: 'سه نوازنده، یک شب، تمام سالن همراه‌شان می‌خواند — کلاسیک‌های ایرانی از ساعت ۲۰، همراه با منوی نوروزی.',
       e2date: 'آخرین سه‌شنبه سال', e2title: 'جشن چهارشنبه‌سوری',
-      e2text: 'جشن آتش پیش از نوروز: آجیل مشکل‌گشا، موسیقی و منویی که زمستان را بدرقه می‌کند.',
+      e2text: 'جشن آتش پیش از نوروز — آجیل مشکل‌گشا، موسیقی زنده، و منویی که زمستان را درست بدرقه می‌کند.',
       cta: 'رزرو جا'
     },
 
     visit: {
-      kicker: '۰۵ — نشانی', title: 'به ما سر بزنید',
-      sub: 'دو دقیقه تا پل متخی، وسط بافت قدیم. داخل و فضای باز، هر دو سرو می‌شود — برای گروه‌های بزرگ‌تر یک تماس کوتاه بهتر است.',
+      kicker: '۰۵ — به ما سر بزنید', title: 'راه رسیدن به ما',
+      sub: 'دو دقیقه تا پل متخی، درست وسط بافت قدیم. داخل و فضای باز سرو می‌کنیم — برای گروه‌های بزرگ یک تماس کوتاه کمک می‌کند.',
       address: 'نشانی', contact: 'تماس', hours: 'ساعت کار',
       whatsapp: 'واتس‌اپ هم داریم', map: 'روی نقشه',
       street: 'خیابان شاوتلی ۵', city: '۰۱۰۵ تفلیس، گرجستان',
@@ -417,8 +417,8 @@ const ui = {
     },
 
     instagram: {
-      kicker: '۰۶ — دنبال‌مان کنید', title: 'تازه‌ترین‌ها، در اینستاگرام',
-      sub: 'تازه‌ترین غذاها، شب‌ها و لحظه‌های پشت صحنه — همان لحظه که اتفاق می‌افتند.',
+      kicker: '۰۶ — دنبال‌مان کنید', title: 'تازه از آشپزخانه',
+      sub: 'غذاهای تازه، شب‌ها، و لحظه‌های پشت صحنه — همان لحظه‌ای که اتفاق می‌افتد.',
       cta: 'دنبال کردن @aladinkitchen.ge'
     },
 
@@ -427,21 +427,21 @@ const ui = {
       pages: 'صفحه‌ها', visit: 'نشانی', contact: 'تماس',
       hoursLink: 'ساعت کار', directions: 'مسیر', reservation: 'رزرو',
       gallery: 'گالری',
-      copyright: '© {y} رستوران Aladin Kitchen، تفلیس',
+      copyright: '© {y} Aladin Kitchen، تفلیس',
       credit: 'طراحی بر پایه راهنمای سبک «Classical»'
     },
 
     menuPage: {
       kicker: 'Aladin Kitchen · تفلیس', title: 'منو',
-      lead: '{c} فصل، {n} غذا. همه چیز تازه پخته می‌شود — کباب از روی زغال می‌آید و خورش از صبح روی شعله است. عکس هر غذا از آشپزخانه خودمان است.',
-      priceNotice: 'قیمت‌ها در حال تکمیل است. قیمت روز را با کمال میل تلفنی به شما می‌گوییم.',
-      catNav: 'دسته‌های منو', searchLabel: 'جست‌وجوی غذا', searchPlaceholder: 'جست‌وجوی غذا…',
+      lead: '{c} فصل، {n} غذا — همه تازه پخته می‌شود. کباب مستقیم از روی زغال می‌آید، خورش از صبح روی شعله بوده. عکس هر غذا از آشپزخانه خودمان است.',
+      priceNotice: 'قیمت‌ها در حال تکمیل است — زنگ بزنید تا همان لحظه قیمت را بگوییم.',
+      catNav: 'دسته‌های منو', searchLabel: 'جست‌وجو در منو', searchPlaceholder: 'دنبال چه غذایی هستید…',
       filterLabel: 'فیلتر',
-      noResultsTitle: 'غذایی پیدا نشد.', noResultsSub: 'املای دیگری را امتحان کنید — یا فیلترها را پاک کنید.',
+      noResultsTitle: 'غذایی با این مشخصات پیدا نشد.', noResultsSub: 'املای دیگری امتحان کنید — یا فیلترها را پاک کنید.',
       reset: 'پاک کردن فیلترها',
       zoom: 'بزرگ کردن عکس {name}',
       outroKicker: 'نوش جان', outroTitle: 'نوش جان',
-      outroText: 'حساسیت غذایی، رژیم خاص یا درخواستی برای سفره دارید؟ بگویید، آشپزخانه هماهنگ می‌کند.',
+      outroText: 'حساسیت غذایی، رژیم خاص یا درخواستی دارید؟ بگویید — آشپزخانه هماهنگ می‌کند.',
       ctaReserve: 'رزرو میز', ctaVisit: 'مسیر و ساعت کار'
     },
 
@@ -450,32 +450,32 @@ const ui = {
 
   /* ══════════════════════════════════════════════════════════ РУССКИЙ ══ */
   ru: {
-    brandSub: 'Ресторан',
+    brandSub: 'Персидский ресторан',
     langLabel: 'Язык',
     skipToContent: 'Перейти к содержанию',
 
     meta: {
-      homeTitle: 'Aladin Kitchen — персидский ресторан в Тбилиси',
-      homeDesc: 'Персидская кухня в старом Тбилиси: кебаб на углях, хорешт из казана, шафрановый рис и чай из самовара. Шавтели 5.',
+      homeTitle: 'Aladin Kitchen — персидский ресторан в старом Тбилиси',
+      homeDesc: 'Кебаб на углях, хорешт, который томится с утра, шафрановый рис и чай из самовара — персидская кухня на Шавтели, с 2015 года.',
       menuTitle: 'Меню — Aladin Kitchen, персидский ресторан в Тбилиси',
-      menuDesc: 'Меню ресторана Aladin Kitchen в Тбилиси: закуски, кебаб на углях, персидские рагу, блюда из риса, рыба и сладости — каждое блюдо с фотографией.',
-      aboutTitle: 'О нас — Aladin Kitchen, персидский ресторан в Тбилиси',
-      aboutDesc: 'История, кухня и то, чему мы верны в Aladin Kitchen: персидское гостеприимство в старом Тбилиси, с 2015 года.',
+      menuDesc: 'Полное меню Aladin Kitchen: закуски, кебаб на углях, персидские рагу, рис, рыба и сладости — каждое блюдо со своей фотографией.',
+      aboutTitle: 'Наша история — Aladin Kitchen, персидский ресторан в Тбилиси',
+      aboutDesc: 'Три поколения, один мангал и правила, которые не менялись: история Aladin Kitchen в старом Тбилиси, с 2015 года.',
       eventsTitle: 'События — Aladin Kitchen, персидский ресторан в Тбилиси',
-      eventsDesc: 'Вечера живой музыки, праздник огня Джашн-е Чаршанбе Сури и вечера, когда наш зал становится чем-то другим — смотрите, что уже готовится в Aladin Kitchen.',
+      eventsDesc: 'Живая музыка, праздник огня Чаршанбе Сури и вечера, когда наш зал становится совсем другим местом — смотрите, что впереди.',
       coursesTitle: 'Перемены блюд — Aladin Kitchen, персидский ресторан в Тбилиси',
-      coursesDesc: 'Заметки из кухни о трёх переменах персидского стола — закусках, огне и сладком финале — и что заказать, когда сядете за стол в Aladin Kitchen.',
-      contactTitle: 'Контакты — Aladin Kitchen, персидский ресторан в Тбилиси',
-      contactDesc: 'Как связаться с Aladin Kitchen в Тбилиси: напишите для брони или вопроса, или позвоните напрямую. Адрес, часы работы и ответы на частые вопросы.'
+      coursesDesc: 'Три коротких текста из кухни о том, как раскрывается персидский стол — закуски, огонь и сладкий финал — и что заказать на каждом этапе.',
+      contactTitle: 'Контакты и бронирование — Aladin Kitchen, Тбилиси',
+      contactDesc: 'Забронируйте стол, задайте вопрос или просто напишите — свяжитесь с Aladin Kitchen по телефону, WhatsApp или через форму ниже. Адрес, часы работы и ответы на частые вопросы.'
     },
 
-    nav: { menu: 'Меню', restaurant: 'Ресторан', experience: 'Атмосфера', visit: 'Как найти', homeLabel: 'Главная', about: 'О нас', events: 'События', courses: 'Перемены блюд', contact: 'Контакты',
+    nav: { menu: 'Меню', restaurant: 'Ресторан', experience: 'Атмосфера', visit: 'Как найти', homeLabel: 'Главная', about: 'Наша история', events: 'События', courses: 'Перемены блюд', contact: 'Контакты',
            reserve: 'Бронь', reserveLong: 'Забронировать стол', openMenu: 'Открыть меню', main: 'Основная навигация', home: 'Aladin Kitchen — главная' },
 
     hero: {
-      kicker: 'Персидская кухня · Тбилиси, с 2015 года',
-      tagline: 'Тысяча вкусов, тысяча историй.',
-      sub: 'Кебаб на углях, хорешт из казана, рис с золотой корочкой. В самом сердце старого города, на Шавтели.',
+      kicker: 'Персидская кухня, старый Тбилиси · с 2015 года',
+      tagline: 'Тысяча и один вкус.',
+      sub: 'Кебаб на углях, хорешт, томлёный с утра, рис с золотой корочкой — в двух шагах от улицы Шавтели, в самом сердце старого города.',
       ctaMenu: 'Смотреть меню', ctaReserve: 'Забронировать стол',
       fact1: 'Шавтели 5', fact2: 'Ежедневно 11–23', fact3: 'Халяль · семейное дело'
     },
@@ -484,61 +484,61 @@ const ui = {
 
     story: {
       kicker: '01 — Дом',
-      titleA: 'Вечер, который', titleB: 'не хочет кончаться',
-      lead: 'За старым каменным фасадом на Шавтели есть зал, где уже больше десяти лет происходит одно и то же: мангал разгорается с полудня, казаны стоят на малом огне с утра, а где-то к вечеру кто-нибудь начинает петь.',
-      body: 'Наша кухня пришла из Исфахана и Шираза — и по дороге в Тбилиси взяла всё, что ей понравилось: сумах Леванта, бахарат Залива, грузинский хлеб из тонэ. Остаётся персидское правило: ни одна специя не лезет вперёд, всему даётся время.',
+      titleA: 'Вечер, который', titleB: 'на самом деле не заканчивается',
+      lead: 'За старым каменным фасадом на Шавтели уже больше десяти лет повторяется один и тот же вечер: угли разгораются с полудня, казаны кипят с рассвета, а где-то после заката кто-то начинает петь.',
+      body: 'Наша кухня добралась сюда из Исфахана и Шираза, прихватив по пути кое-что ещё: сумах Леванта, специи Залива, грузинский хлеб из тонэ. Одно правило пережило этот путь — ничего не спешит, и ни одна специя не имеет права кричать.',
       stat1: 'Лет в Тбилиси', stat2: 'Блюд в меню', stat3: 'Часа на одно махиче',
-      link: 'Часы работы и как добраться', badgeSince: 'С', badgeCity: 'Тбилиси'
+      link: 'Часы работы и адрес', badgeSince: 'С', badgeCity: 'Тбилиси'
     },
 
     signature: {
       kicker: '02 — С кухни',
-      title: 'Четыре, с которых стоит начать',
-      sub: 'Если вы у нас впервые — закажите эти. Всё остальное есть в меню.',
-      cta: 'Всё меню — {n} блюд'
+      title: 'Начните с этого',
+      sub: 'Впервые у нас? Эти четыре блюда расскажут всё, что нужно знать. Остальное — в меню.',
+      cta: 'Смотреть все {n} блюд'
     },
 
-    quote: { text: 'Скажи мне, что ты ешь, и я скажу, откуда ты родом.', source: 'Персидская пословица' },
+    quote: { text: 'Терпение горько, но плод его сладок.', source: 'Персидская пословица' },
 
     about: {
       hero: {
-        kicker: 'О нас',
-        title: 'Дом, который живёт по своим часам',
-        lead: 'На Шавтели 5 с 2015 года пахнет углями и шафраном. Это история кухни за этим запахом — откуда она пришла, во что верит и кто поддерживает огонь.'
+        kicker: 'О ресторане Aladin Kitchen',
+        title: 'Кухня, которая живёт по своим часам',
+        lead: 'С 2015 года Шавтели 5 пахнет углями и шафраном. Здесь мы рассказываем, откуда этот запах — и кто его поддерживает.'
       },
       story: {
         kicker: '01 — С чего всё началось',
         titleA: 'Из Исфахана', titleB: 'в старый город',
-        lead: 'Рецепты приехали раньше нас: хорешт бабушки, отцовская рука на шампуре, семейное чутьё — когда рис готов, а когда ещё нет. Aladin Kitchen открылся в 2015 году с одной идеей: готовить так, как учили нас, и впустить в это Тбилиси.',
-        body: 'Город тоже кое-что дал взамен. Грузинский хлеб из тонэ лёг на наш стол; левантийский сумах нашёл дорогу в персидское рагу; неспешные вечера старого города научили нас не торопить чай. Ничего из этого не изменило главного убеждения кухни — блюду нужно время больше, чем что-либо ещё.',
-        extra: 'Спустя десять лет мангал всё так же разгорается с полудня, а казаны всё так же кипят с утра. Зал наполняется как и всегда: сначала семья, потом друзья, потом каждый, кто идёт мимо и не может пройти мимо запаха.',
+        lead: 'Рецепты приехали раньше нас: хорешт бабушки, рука отца на шампуре, семейное чутьё на тот самый момент, когда рис готов. Aladin Kitchen открылся в 2015 году с простым планом — готовить так, как готовили всегда, и впустить в это Тбилиси.',
+        body: 'Город тоже кое-что дал взамен. Грузинский хлеб из тонэ добрался до нашего стола; левантийский сумах нашёл дорогу в персидское рагу; неспешные вечера старого города научили нас не торопить чай. Ничего из этого не поколебало главного убеждения кухни — блюду нужно время больше, чем что-либо ещё.',
+        extra: 'Спустя десять лет угли всё так же разгораются в полдень, а казаны кипят с рассвета. Зал наполняется как и всегда: сначала семья, потом друзья, потом все, кто идёт по улице и не может пройти мимо запаха.',
         stat1: 'Лет в Тбилиси', stat2: 'Блюд в меню', stat3: 'Часа на одно махиче',
         badgeSince: 'С', badgeCity: 'Тбилиси'
       },
       values: {
         kicker: '02 — Чему мы верны',
-        title: 'Три вещи, которые не меняются',
-        sub: 'Мода в старом городе приходит и уходит. Эти три — нет.',
+        title: 'Три правила, которые не гнутся',
+        sub: 'В старом городе всё меняется от сезона к сезону. Эти три — нет.',
         v1title: 'Никакой спешки',
-        v1text: 'Хорешт стоит на малом огне с самого утра. Кебаб снимают с углей только тогда, когда он готов — а не когда торопит заказ.',
-        v2title: 'Одна специя за раз',
-        v2text: 'Шафран, сумах, сушёный лайм, розовая вода — у каждой свой момент. Наша кухня оставляет место одному голосу, а не хору.',
-        v3title: 'Стол — это семья',
-        v3text: 'Откуда бы вы ни приехали, здесь вы садитесь как дома — и уходите с большим, чем заказали.'
+        v1text: 'Хорешт томится с самого утра. Кебаб снимают с углей только тогда, когда он готов — а не когда торопит заказ.',
+        v2title: 'Одна специя — один момент',
+        v2text: 'Шафран, сумах, сушёный лайм, розовая вода — у каждой свой черёд. Нам важнее один ясный голос, чем хор.',
+        v3title: 'За каждым столом — семья',
+        v3text: 'Откуда бы вы ни приехали, здесь вы садитесь как дома — и уходите с бо́льшим, чем заказали.'
       },
       team: {
-        kicker: '03 — Кто готовит для вас',
-        title: 'Не один повар — три поколения',
-        sub: 'Кухня здесь всегда была семейным делом. Вот руки, которые за ней стоят.',
-        r1title: 'Мангал', r1text: 'Угли разгораются с полудня, переворачиваются вручную и никогда не остаются без присмотра.',
+        kicker: '03 — Кто готовит',
+        title: 'Три поколения, одна кухня',
+        sub: 'Кухня здесь всегда была семейным делом. Вот кто её держит.',
+        r1title: 'Мангал', r1text: 'Разожжён с полудня, переворачивается вручную, никогда не остаётся без присмотра.',
         r2title: 'Казаны', r2text: 'Хорешт и горме сабзи на огне настолько тихом, что о нём забываешь — пока не напомнит запах.',
-        r3title: 'Зал', r3text: 'Тот, кто сегодня усадит вас за стол, скорее всего, уже кормил и ваших соседей.'
+        r3title: 'Зал', r3text: 'Тот, кто усадит вас сегодня, скорее всего, уже накормил полулицы.'
       },
       quote: { text: 'Гость — это дар от Бога.', source: 'Персидская пословица — правило этого дома' },
       cta: {
-        kicker: 'Приходите и увидьте сами',
-        title: 'Лучшее объяснение — это стол',
-        text: 'Слова могут рассказать не всё. Приходите попробовать шафран сами — мы согреем для вас стол.',
+        kicker: 'Убедитесь сами',
+        title: 'Некоторые вещи нужно пробовать',
+        text: 'О шафране можно говорить весь день. Лучше приходите и попробуйте сами — стол для вас уже готов.',
         ctaReserve: 'Забронировать стол', ctaMenu: 'Смотреть меню'
       }
     },
@@ -548,25 +548,25 @@ const ui = {
     contact: {
       hero: {
         kicker: 'Контакты и бронирование',
-        title: 'Напишите нам — или сразу забронируйте стол',
-        lead: 'Для брони, вопроса о меню или частного праздника — напишите здесь или позвоните по номеру справа. Мы читаем каждое сообщение.'
+        title: 'Найдём для вас стол',
+        lead: 'Вопрос о меню, бронь стола или частное торжество — напишите ниже или позвоните по номеру справа. Мы читаем каждое сообщение.'
       },
       form: {
-        sectionKicker: 'Отправить сообщение', sectionTitle: 'Связаться с нами',
-        sectionSub: 'Укажите дату, число гостей или просто напишите, что у вас на уме — обычно отвечаем в течение дня.',
+        sectionKicker: 'Напишите нам', sectionTitle: 'Будем рады вашему сообщению',
+        sectionSub: 'Дата, число гостей или просто вопрос — расскажите, что у вас на уме. Обычно отвечаем в течение дня.',
         fields: { name: 'Имя', email: 'Email', phone: 'Телефон', topic: 'Тема сообщения', message: 'Сообщение' },
         placeholders: { name: 'Ваше имя', email: 'you@example.com', phone: '+995 …', message: 'Чем можем помочь?' },
         options: { choose: 'Выберите тему', enquiry: 'Общий вопрос', reservation: 'Бронирование', other: 'Другое' },
-        emailSubject: 'Новое сообщение с формы Aladin Kitchen',
+        emailSubject: 'Новая заявка с сайта Aladin Kitchen',
         submit: 'Отправить',
-        success: 'Спасибо — сообщение получено. Обычно отвечаем в течение дня; для брони на сегодня лучше позвонить.',
-        error: 'Что-то пошло не так, сообщение не отправилось. Попробуйте ещё раз или позвоните нам напрямую — номер справа.'
+        success: 'Сообщение получено — спасибо. Обычно отвечаем в течение дня; для брони на сегодня быстрее позвонить.',
+        error: 'Что-то пошло не так, и сообщение не отправилось. Попробуйте ещё раз или позвоните нам напрямую — номер справа.'
       },
       faq: {
-        kicker: 'Прежде чем написать', title: 'Частые вопросы',
+        kicker: 'Прежде чем написать', title: 'Полезно знать',
         items: [
           { q: 'Какие у вас часы работы?', a: 'Открыты каждый день: с понедельника по четверг и в воскресенье с 11:00 до 23:00, в пятницу и субботу — с 11:00 до 24:00.' },
-          { q: 'Принимаете бронь? На сколько человек?', a: 'Да — через эту форму, по телефону или в WhatsApp. Для групп больше восьми человек лучше коротко позвонить: так проще подобрать стол и меню.' },
+          { q: 'Бронируете столы? На сколько человек?', a: 'Да — через эту форму, по телефону или в WhatsApp. Для групп больше восьми человек лучше коротко позвонить: так проще подобрать стол и меню.' },
           { q: 'Кухня халяльная? Учитываете аллергии?', a: 'Да, наша кухня халяльная. Напишите об аллергии или диете в сообщении или при бронировании — кухня подстроится.' },
           { q: 'Есть доставка или еда на вынос?', a: 'На вынос — да, позвоните заранее, и всё будет готово к вашему приходу. По доставке в Тбилиси уточните по телефону текущих партнёров и районы.' },
           { q: 'Где вы находитесь и есть ли парковка?', a: 'Улица Шавтели 5, две минуты от собора Сиони в старом городе. Парковка на улице ограничена — в оживлённые вечера проще взять такси или пройтись пешком.' },
@@ -576,62 +576,62 @@ const ui = {
     },
 
     eventsPage: {
-      kicker: 'Моменты', title: 'Наши события',
-      lead: 'В несколько вечеров в году наш зал становится чем-то другим — концертным залом или кругом у огня. Вот что уже в календаре.',
-      sectionKicker: 'В календаре', sectionTitle: 'Создайте воспоминание'
+      kicker: 'Что у нас', title: 'События в Aladin Kitchen',
+      lead: 'В несколько вечеров в году наш зал становится совсем другим местом — концертным залом или кругом у огня. Вот что уже готовится.',
+      sectionKicker: 'В календаре', sectionTitle: 'Вечера, которые стоит запланировать'
     },
 
     coursesPage: {
       kicker: 'Заметки из кухни', title: 'Перемены блюд',
-      lead: 'Персидский стол не спешит — он приходит переменами. Три коротких заметки о том, что подают первым, что снимают с углей, и чем заканчивается вечер.',
-      sectionKicker: 'Из дневника', sectionTitle: 'Три перемены, три истории', sub: 'Каждая заметка заканчивается там, где начинается блюдо — в меню.',
-      cta: 'Читать заметку'
+      lead: 'Персидский стол не спешит — он раскрывается постепенно. Три коротких текста о том, что подают первым, что снимают с огня, и чем заканчивается вечер.',
+      sectionKicker: 'Из дневника', sectionTitle: 'Три перемены, три истории', sub: 'Каждый текст заканчивается там, где начинается блюдо — в меню.',
+      cta: 'Читать дальше'
     },
 
     courses: {
       c1tag: 'Закуски', c1title: 'Что приходит на стол первым',
-      c1text: 'До кебаба, до риса — на стол попадает несколько маленьких тарелок: кашк-е бадемджан ещё тёплый со сковороды, свежая зелень, хлеб из тонэ. Именно здесь персидская трапеза начинает замедляться.',
+      c1text: 'До кебаба, до риса на стол попадает несколько маленьких тарелок: кашк-е бадемджан прямо со сковороды, свежая зелень, тёплый хлеб из тонэ. Именно здесь персидский стол учится не спешить.',
       c1meta: 'Глава 01 · Мезе и закуски',
-      c2tag: 'Кебаб', c2title: 'Для чего нужен огонь',
-      c2text: 'Бахтиари, кубиде, барг — угли сами по себе ничего не решают, решает рука, которая поворачивает шампур. Маринад, время и последняя минута над открытыми углями отличают хороший кебаб от нашего.',
-      c2meta: 'Глава 02 · С углей',
-      c3tag: 'Десерт и чай', c3title: 'Как здесь заканчивается вечер',
-      c3text: 'Ни одна перемена здесь не спешит закончиться. Чёрный чай из самовара, пахлава с фисташкой, последние неторопливые полчаса за столом — часть трапезы, которую никто не заказывает, но все запоминают.',
+      c2tag: 'Рыба и морепродукты', c2title: 'Для чего на самом деле нужен огонь',
+      c2text: 'Морской окунь, осьминог, креветки из Залива — угли сами по себе ничего не решают, решает рука, которая ими управляет. Цитрусовый маринад, мягкий жар и последняя минута над открытым огнём отличают нашу рыбу.',
+      c2meta: 'Глава 02 · С улова и с углей',
+      c3tag: 'Десерт и дижестив', c3title: 'Как здесь затихает вечер',
+      c3text: 'Ни одна перемена здесь не спешит закончиться. Холодный мастичный ликёр, тёплая халва из манки с цедрой лимона, ещё полчаса за столом без спешки — часть трапезы, которую никто не заказывает, но все запоминают.',
       c3meta: 'Глава 03 · Сладкое и самовар'
     },
 
     gallery: {
-      kicker: '03 — За столом', title: 'Как здесь выглядит',
+      kicker: '03 — За столом', title: 'Взгляд изнутри',
       c1: 'Бараньи котлеты по-шандизски, сутки в маринаде.',
-      c2: 'Чёрный чай из самовара, пахлава с фисташкой.',
+      c2: 'Чёрный чай из самовара, рядом — пахлава с фисташкой.',
       c3: 'Баклажан с кашком, мятным маслом и жареным луком.',
       c4: 'Вход в старом городе Тбилиси.',
-      c5: 'Креветки, кальмар и рыба дня.',
-      c6: 'Целая дорадо на углях, фаршированная зеленью.'
+      c5: 'Креветки, кальмар и улов дня.',
+      c6: 'Целая дорадо на углях, фаршированная свежей зеленью.'
     },
 
     events: {
-      kicker: '04 — События', title: 'Музыка, праздники, долгие вечера',
-      sub: 'На Навруз, на Чаршанбе Сури и по совершенно обычным пятницам у нас играет живая музыка. В такие вечера бронируйте заранее — зал наполняется быстро.',
+      kicker: '04 — Атмосфера', title: 'Музыка, застолья, долгие вечера',
+      sub: 'На Навруз, на Чаршанбе Сури и иногда в самую обычную пятницу у нас звучит живая музыка. Бронируйте заранее — такие вечера заполняются быстро.',
       e1date: '19 марта · Навруз', e1title: 'Живой концерт на Новый год',
-      e1text: 'Три музыканта, один вечер, весь зал: персидская классика вживую с 20:00 и новрузское меню кухни.',
+      e1text: 'Три музыканта, один вечер, весь зал подпевает — персидская классика вживую с 20:00, вместе с новрузским меню.',
       e2date: 'Последний вторник года', e2title: 'Джашн-е Чаршанбе Сури',
-      e2text: 'Праздник огня перед Наврузом: аджиль-е мошкель-гоша, музыка и меню, которое провожает зиму.',
+      e2text: 'Праздник огня перед Наврузом — аджиль-е мошкель-гоша, живая музыка и меню, которое как следует провожает зиму.',
       cta: 'Забронировать место'
     },
 
     visit: {
-      kicker: '05 — Как найти', title: 'Приходите к нам',
-      sub: 'Две минуты от Метехского моста, в самом центре старого города. Есть места внутри и на воздухе — для больших компаний лучше коротко позвонить.',
+      kicker: '05 — Приходите', title: 'Как нас найти',
+      sub: 'Две минуты от Метехского моста, в самом центре старого города. Обслуживаем внутри и на воздухе — для больших компаний лучше коротко позвонить.',
       address: 'Адрес', contact: 'Контакты', hours: 'Часы работы',
-      whatsapp: 'Также в WhatsApp', map: 'На карте',
+      whatsapp: 'Также в WhatsApp', map: 'Открыть на карте',
       street: 'ул. Шавтели 5', city: '0105 Тбилиси, Грузия',
       row1: 'Пн – Чт', row2: 'Пт – Сб', row3: 'Воскресенье',
       ctaReserve: 'Забронировать стол', ctaMenu: 'Меню'
     },
 
     instagram: {
-      kicker: '06 — Мы в Instagram', title: 'Свежее прямо с кухни — в Instagram',
+      kicker: '06 — Подписывайтесь', title: 'Свежее прямо с кухни',
       sub: 'Новые блюда, вечера и закулисные моменты — как только это происходит.',
       cta: 'Подписаться @aladinkitchen.ge'
     },
@@ -641,21 +641,21 @@ const ui = {
       pages: 'Страницы', visit: 'Как найти', contact: 'Контакты',
       hoursLink: 'Часы работы', directions: 'Как добраться', reservation: 'Бронирование',
       gallery: 'Галерея',
-      copyright: '© {y} Ресторан Aladin Kitchen, Тбилиси',
+      copyright: '© {y} Aladin Kitchen, Тбилиси',
       credit: 'Оформление по стайлгайду «Classical»'
     },
 
     menuPage: {
       kicker: 'Aladin Kitchen · Тбилиси', title: 'Меню',
-      lead: '{c} раздела, {n} блюд. Всё готовится под заказ — кебаб идёт прямо с углей, хорешт стоит на огне с утра. К каждому блюду фотография с нашей кухни.',
-      priceNotice: 'Цены сейчас вносятся. Актуальные цены с удовольствием назовём по телефону.',
-      catNav: 'Разделы меню', searchLabel: 'Поиск блюда', searchPlaceholder: 'Найти блюдо…',
+      lead: '{c} раздела, {n} блюд — всё готовится под заказ. Кебаб идёт прямо с углей, хорешт томится с самого утра. К каждому блюду — фотография с нашей кухни.',
+      priceNotice: 'Цены сейчас добавляются — позвоните, и мы с радостью назовём их сразу.',
+      catNav: 'Разделы меню', searchLabel: 'Поиск по меню', searchPlaceholder: 'Что вы ищете…',
       filterLabel: 'Фильтр',
-      noResultsTitle: 'Блюдо не найдено.', noResultsSub: 'Попробуйте другое написание — или сбросьте фильтры.',
+      noResultsTitle: 'Ничего не найдено.', noResultsSub: 'Попробуйте другое написание — или сбросьте фильтры.',
       reset: 'Сбросить фильтры',
       zoom: 'Увеличить фото: {name}',
       outroKicker: 'Приятного аппетита', outroTitle: 'Нуше джан',
-      outroText: 'Аллергия, непереносимость или особое пожелание к столу? Скажите нам — кухня подстроится.',
+      outroText: 'Аллергия, непереносимость или пожелание к столу? Просто скажите — кухня подстроится.',
       ctaReserve: 'Забронировать стол', ctaVisit: 'Как добраться и часы'
     },
 
@@ -664,32 +664,32 @@ const ui = {
 
   /* ═════════════════════════════════════════════════════════ ქართული ══ */
   ka: {
-    brandSub: 'რესტორანი',
+    brandSub: 'სპარსული რესტორანი',
     langLabel: 'ენა',
     skipToContent: 'გადასვლა შიგთავსზე',
 
     meta: {
-      homeTitle: 'Aladin Kitchen — სპარსული რესტორანი თბილისში',
-      homeDesc: 'სპარსული სამზარეულო თბილისის ძველ ქალაქში: ნახშირზე შემწვარი ქაბაბი, ხორეშთი, ზაფრანიანი ბრინჯი და ჩაი სამოვრიდან. შავთელის ქუჩა 5.',
+      homeTitle: 'Aladin Kitchen — სპარსული რესტორანი თბილისის ძველ ქალაქში',
+      homeDesc: 'ნახშირზე შემწვარი ქაბაბი, დილიდან ცეცხლზე მდგარი ხორეშთი, ზაფრანიანი ბრინჯი და ჩაი სამოვრიდან — სპარსული სამზარეულო შავთელის ქუჩაზე, 2015 წლიდან.',
       menuTitle: 'მენიუ — Aladin Kitchen, სპარსული რესტორანი თბილისში',
-      menuDesc: 'რესტორან Aladin Kitchen-ის მენიუ თბილისში: წასახემსებელი, ნახშირზე შემწვარი ქაბაბი, სპარსული ხორეშთი, ბრინჯის კერძები, თევზი და ტკბილეული — ყოველი კერძი ფოტოთი.',
-      aboutTitle: 'ჩვენ შესახებ — Aladin Kitchen, სპარსული რესტორანი თბილისში',
-      aboutDesc: 'ისტორია, სამზარეულო და რასაც Aladin Kitchen-ში ვერთგულებთ: სპარსული სტუმართმოყვარეობა თბილისის ძველ ქალაქში, 2015 წლიდან.',
+      menuDesc: 'გაეცანით Aladin Kitchen-ის სრულ მენიუს: წასახემსებელი, ნახშირზე შემწვარი ქაბაბი, სპარსული ხორეშთი, ბრინჯის კერძები, თევზი და ტკბილეული — ყოველი კერძი საკუთარი ფოტოთი.',
+      aboutTitle: 'ჩვენი ისტორია — Aladin Kitchen, სპარსული რესტორანი თბილისში',
+      aboutDesc: 'სამი თაობა, ერთი მაყალი და წესები, რომლებიც არასდროს შეცვლილა: Aladin Kitchen-ის ისტორია თბილისის ძველ ქალაქში, 2015 წლიდან.',
       eventsTitle: 'ღონისძიებები — Aladin Kitchen, სპარსული რესტორანი თბილისში',
-      eventsDesc: 'ცოცხალი მუსიკის საღამოები, ჯაშნ-ე ჩარშანბე სურის ცეცხლის დღესასწაული და საღამოები, როცა ჩვენი დარბაზი სხვა რამედ იქცევა — ნახეთ, რა გველოდება Aladin Kitchen-ში.',
+      eventsDesc: 'ცოცხალი მუსიკა, ცეცხლის დღესასწაული ჩარშანბე სური და საღამოები, როცა ჩვენი დარბაზი სულ სხვა ადგილად იქცევა — ნახეთ, რა გველოდება.',
       coursesTitle: 'სუფრის ეტაპები — Aladin Kitchen, სპარსული რესტორანი თბილისში',
-      coursesDesc: 'ჩანაწერები სამზარეულოდან სპარსული სუფრის სამ ეტაპზე — წასახემსებელი, ცეცხლი და ტკბილი დასასრული — და რა შევუკვეთოთ, როცა Aladin Kitchen-ში ჩამოვსხდებით.',
-      contactTitle: 'კონტაქტი — Aladin Kitchen, სპარსული რესტორანი თბილისში',
-      contactDesc: 'როგორ დაგვიკავშირდეთ Aladin Kitchen-ს თბილისში: მოგვწერეთ დასაჯავშნად ან შეკითხვისთვის, ან პირდაპირ დაგვირეკეთ. მისამართი, სამუშაო საათები და პასუხები ხშირ კითხვებზე.'
+      coursesDesc: 'სამი მოკლე ჩანაწერი სამზარეულოდან იმაზე, როგორ იშლება სპარსული სუფრა — წასახემსებელი, ცეცხლი და ტკბილი დასასრული — და რა შევუკვეთოთ ყოველ ეტაპზე.',
+      contactTitle: 'კონტაქტი და დაჯავშნა — Aladin Kitchen, თბილისი',
+      contactDesc: 'დაჯავშნეთ მაგიდა, დასვით შეკითხვა ან უბრალოდ მოგვესალმეთ — დაგვიკავშირდით ტელეფონით, WhatsApp-ით ან ქვემოთა ფორმით. მისამართი, სამუშაო საათები და პასუხები ხშირ კითხვებზე.'
     },
 
-    nav: { menu: 'მენიუ', restaurant: 'რესტორანი', experience: 'ატმოსფერო', visit: 'მისამართი', homeLabel: 'მთავარი', about: 'ჩვენ შესახებ', events: 'ღონისძიებები', courses: 'სუფრის ეტაპები', contact: 'კონტაქტი',
+    nav: { menu: 'მენიუ', restaurant: 'რესტორანი', experience: 'ატმოსფერო', visit: 'მისამართი', homeLabel: 'მთავარი', about: 'ჩვენი ისტორია', events: 'ღონისძიებები', courses: 'სუფრის ეტაპები', contact: 'კონტაქტი',
            reserve: 'დაჯავშნა', reserveLong: 'მაგიდის დაჯავშნა', openMenu: 'მენიუს გახსნა', main: 'მთავარი ნავიგაცია', home: 'Aladin Kitchen — მთავარი' },
 
     hero: {
-      kicker: 'სპარსული სამზარეულო · თბილისი, 2015 წლიდან',
-      tagline: 'ათასი გემო, ათასი ამბავი.',
-      sub: 'ნახშირზე შემწვარი ქაბაბი, ხორეშთი ქვაბიდან, ბრინჯი ოქროსფერი ქერქით. ძველი ქალაქის გულში, შავთელის ქუჩაზე.',
+      kicker: 'სპარსული სამზარეულო, ძველი თბილისი · 2015 წლიდან',
+      tagline: 'ათას ერთი გემო.',
+      sub: 'ნახშირზე შემწვარი ქაბაბი, დილიდან ცეცხლზე მდგარი ხორეშთი, ბრინჯი ოქროსფერი ქერქით — შავთელის ქუჩიდან ორიოდე ნაბიჯზე, ძველი ქალაქის გულში.',
       ctaMenu: 'მენიუს ნახვა', ctaReserve: 'მაგიდის დაჯავშნა',
       fact1: 'შავთელის ქუჩა 5', fact2: 'ყოველდღე 11–23', fact3: 'ჰალალი · ოჯახური'
     },
@@ -698,61 +698,61 @@ const ui = {
 
     story: {
       kicker: '01 — სახლი',
-      titleA: 'საღამო, რომელსაც', titleB: 'დასრულება არ უნდა',
-      lead: 'შავთელის ქუჩის ძველი ქვის ფასადის უკან არის დარბაზი, სადაც ათ წელზე მეტია ერთი და იგივე ხდება: მაყალი შუადღიდან იწვის, ქვაბები დილიდან ნელ ცეცხლზე დგას, და საღამოს რომელიღაც წუთს ვიღაც სიმღერას იწყებს.',
-      body: 'ჩვენი სამზარეულო ისპაჰანიდან და შირაზიდან მოვიდა — და თბილისისკენ მიმავალ გზაზე ის აიღო, რაც მოეწონა: ლევანტის სუმახი, ყურის ბაჰარათი, თონის ქართული პური. რაც რჩება, სპარსული წესია: არცერთი სანელებელი წინ არ იწევს, ყველაფერს დრო ეძლევა.',
+      titleA: 'საღამო, რომელიც', titleB: 'სინამდვილეში არასდროს სრულდება',
+      lead: 'შავთელის ქუჩის ძველი ქვის ფასადის მიღმა ათ წელზე მეტია ერთი და იგივე საღამო მეორდება: ნახშირი შუადღიდან იწვის, ქვაბები გამთენიისას იწყებს დუღილს, და მზის ჩასვლის შემდეგ ვიღაც სიმღერას იწყებს.',
+      body: 'ჩვენი სამზარეულო ისპაჰანიდან და შირაზიდან მოვიდა და გზად კიდევ რაღაცეები აიღო: ლევანტის სუმახი, ყურის სანელებლები, თონის ქართული პური. ერთი წესი გადარჩა ამ გზას — არაფერს არ ეჩქარება და არცერთ სანელებელს არა აქვს ხმის აწევის უფლება.',
       stat1: 'წელი თბილისში', stat2: 'კერძი მენიუში', stat3: 'საათი ერთი მაჰიჩესთვის',
       link: 'სამუშაო საათები და მისამართი', badgeSince: 'დან', badgeCity: 'თბილისი'
     },
 
     signature: {
       kicker: '02 — სამზარეულოდან',
-      title: 'ოთხი, რომლითაც უნდა დაიწყოთ',
-      sub: 'თუ პირველად ხართ ჩვენთან, ეს შეუკვეთეთ. დანარჩენი მენიუშია.',
-      cta: 'სრული მენიუ — {n} კერძი'
+      title: 'აქედან დაიწყეთ',
+      sub: 'პირველად ხართ ჩვენთან? ეს ოთხი კერძი ყველაფერს გეტყვით. დანარჩენი მენიუშია.',
+      cta: 'ყველა {n} კერძის ნახვა'
     },
 
-    quote: { text: 'მითხარი, რას ჭამ, და გეტყვი, საიდან ხარ.', source: 'სპარსული ანდაზა' },
+    quote: { text: 'მოთმინება მწარეა, მაგრამ მისი ნაყოფი ტკბილია.', source: 'სპარსული ანდაზა' },
 
     about: {
       hero: {
-        kicker: 'ჩვენ შესახებ',
-        title: 'სახლი, რომელსაც საკუთარი დრო აქვს',
-        lead: 'შავთელის ქუჩა 5-ს 2015 წლიდან ნახშირისა და ზაფრანის სუნი დაჰყვება. ეს არის სამზარეულოს ისტორია მის მიღმა — საიდან მოვიდა, რას სჯერა და ვინ ინახავს ცეცხლს.'
+        kicker: 'Aladin Kitchen-ის შესახებ',
+        title: 'სამზარეულო, რომელსაც თავისი საათი აქვს',
+        lead: 'შავთელის ქუჩა 5-ს 2015 წლიდან ნახშირისა და ზაფრანის სუნი დაჰყვება. აქ გიამბობთ, საიდან მოდის ეს სუნი — და ვინ ინახავს მას.'
       },
       story: {
         kicker: '01 — საიდან დაიწყო',
         titleA: 'ისპაჰანიდან', titleB: 'ძველ ქალაქამდე',
-        lead: 'რეცეპტები ჩვენზე ადრე ჩამოვიდა: ბებიის ხორეშთი, მამის ხელი შამფურზე, მთელი ოჯახის შეგრძნება, როდის არის ბრინჯი მზად და როდის — არა. Aladin Kitchen 2015 წელს ერთი იდეით გაიხსნა — ისე მოვამზადოთ, როგორც გვასწავლეს, და თბილისი შემოვუშვათ.',
-        body: 'ქალაქმაც რაღაც დაგვიბრუნა. ქართული პური თონედან ჩვენს მაგიდებზე მოვიდა; ლევანტის სუმახმა სპარსულ ხორეშთში გზა გაიკვლია; ძველი ქალაქის ნელი საღამოები გვასწავლიდა, ჩაი არ ავჩქაროთ. ამან ვერაფერი შეცვალა სამზარეულოს რწმენაში — რომ კერძს ყველაფერზე მეტად დრო სჭირდება.',
-        extra: 'ათი წლის შემდეგ მაყალი დღემდე შუადღიდან იწვის და ქვაბები დილიდან დუღს. დარბაზი ისევე ივსება, როგორც ყოველთვის: ჯერ ოჯახი, მერე მეგობრები, მერე ყველა, ვინც გვერდით გაივლის და სუნს გაჰყვება შიგნით.',
+        lead: 'რეცეპტები ჩვენზე ადრე ჩამოვიდა: ბებიის ხორეშთი, მამის ხელი შამფურზე, ოჯახის შეგრძნება, როდის არის ბრინჯი ზუსტად მზად. Aladin Kitchen 2015 წელს გაიხსნა მარტივი გეგმით — ისე მოვამზადოთ, როგორც ყოველთვის ვამზადებდით, და თბილისი შემოვუშვათ.',
+        body: 'ქალაქმაც რაღაც დაგვიბრუნა. ქართული პური თონედან ჩვენს მაგიდამდე მივიდა; ლევანტის სუმახმა სპარსულ ხორეშთში გზა გაიკვლია; ძველი ქალაქის ნელი საღამოები გვასწავლიდა, ჩაი არ ავჩქაროთ. ამან ვერაფერი შეარყია სამზარეულოს ერთადერთ რწმენაში — რომ კერძს ყველაფერზე მეტად დრო სჭირდება.',
+        extra: 'ათი წლის შემდეგ ნახშირი დღემდე შუადღიდან იწვის და ქვაბები გამთენიისას დუღს. დარბაზი ისევე ივსება, როგორც ყოველთვის — ჯერ ოჯახი, მერე მეგობრები, მერე ყველა, ვინც ქუჩაზე სუნს გაჰყვება.',
         stat1: 'წელი თბილისში', stat2: 'კერძი მენიუში', stat3: 'საათი ერთი მაჰიჩესთვის',
         badgeSince: 'დან', badgeCity: 'თბილისი'
       },
       values: {
         kicker: '02 — რასაც ვერთგულებთ',
-        title: 'სამი რამ, რაც არ იცვლება',
-        sub: 'ძველ ქალაქში მოდა მოდის და მიდის. ეს სამი — არა.',
+        title: 'სამი წესი, რომელიც არ იხრება',
+        sub: 'ძველ ქალაქში ყველაფერი სეზონთან ერთად იცვლება. ეს სამი — არა.',
         v1title: 'არაფერი აჩქარებით',
-        v1text: 'ხორეშთი დილიდან ნელ ცეცხლზე დგას. ქაბაბს ნახშირიდან მხოლოდ მაშინ იღებენ, როცა მზადაა — და არა მაშინ, როცა შეკვეთა ჩქარობს.',
-        v2title: 'ერთი სანელებელი ერთდროულად',
-        v2text: 'ზაფრანა, სუმახი, ხმელი ლაიმი, ვარდის წყალი — თითოეულს თავისი წუთი აქვს. ჩვენი სამზარეულო ერთ ხმას უტოვებს ადგილს, არა ხმაურს.',
-        v3title: 'სუფრა — ოჯახია',
-        v3text: 'საიდანაც არ უნდა მოხვიდეთ, აქ ისე ჯდებით, როგორც სახლში — და მეტს წაიღებთ, ვიდრე შეუკვეთეთ.'
+        v1text: 'ხორეშთი დილიდან ნელ ცეცხლზეა. ქაბაბს ნახშირიდან მხოლოდ მაშინ იღებენ, როცა მზადაა — და არა მაშინ, როცა შეკვეთა ჩქარობს.',
+        v2title: 'ერთი სანელებელი, ერთი მომენტი',
+        v2text: 'ზაფრანა, სუმახი, ხმელი ლაიმი, ვარდის წყალი — თითოეულს თავისი დრო აქვს. გვირჩევნია ერთი გარკვევადი ხმა, ვიდრე ხმაური.',
+        v3title: 'ყოველი მაგიდა — ოჯახია',
+        v3text: 'საიდანაც არ უნდა ჩამოხვიდეთ, აქ ისე ჯდებით, როგორც სახლში — და მეტს წაიღებთ, ვიდრე შეუკვეთეთ.'
       },
       team: {
         kicker: '03 — ვინ გიმზადებთ',
-        title: 'ერთი მზარეული კი არა — სამი თაობა',
-        sub: 'სამზარეულო ყოველთვის ოჯახის საქმე იყო. ესენი არიან ხელები მის უკან.',
-        r1title: 'მაყალი', r1text: 'ნახშირი შუადღიდან იწვის, ხელით ბრუნავს და არასდროს რჩება მიუხედავად.',
-        r2title: 'ქვაბები', r2text: 'ხორეშთი და ღორმე საბზი ისე ნელ ცეცხლზეა, რომ ავიწყდებათ — სანამ სუნი არ შეგახსენებთ.',
-        r3title: 'დარბაზი', r3text: 'ვინც შენ დაგსვამს ამაღამ, დიდი ალბათობით შენი მეზობელიც აჭამა.'
+        title: 'სამი თაობა, ერთი სამზარეულო',
+        sub: 'სამზარეულო აქ ყოველთვის ოჯახის საქმე იყო. აი, ვინც მას აბრუნებს.',
+        r1title: 'მაყალი', r1text: 'შუადღიდან დანთებული, ხელით ბრუნავს, არასდროს რჩება ყურადღების გარეშე.',
+        r2title: 'ქვაბები', r2text: 'ხორეშთი და ღორმე საბზი ისეთ ნელ ცეცხლზეა, რომ ივიწყებ — სანამ სუნი არ შეგახსენებს.',
+        r3title: 'დარბაზი', r3text: 'ვინც დღეს დაგსვამთ, დიდი ალბათობით ქუჩის ნახევარიც უკვე აჭამა.'
       },
       quote: { text: 'სტუმარი ღვთის საჩუქარია.', source: 'სპარსული ანდაზა — ამ სახლის წესი' },
       cta: {
-        kicker: 'თავად მოდით და ნახეთ',
-        title: 'საუკეთესო ახსნა — მაგიდაა',
-        text: 'სიტყვები მხოლოდ გარკვეულ დონემდე მიდის. მოდით, თავად გასინჯეთ ზაფრანა — მაგიდას გავათბობთ თქვენთვის.',
+        kicker: 'თავად დარწმუნდით',
+        title: 'ზოგი რამ უნდა გასინჯო',
+        text: 'ზაფრანზე მთელი დღე შეგვიძლია ვისაუბროთ. სჯობს მოხვიდეთ და თავად გასინჯოთ — მაგიდა უკვე თქვენთვის ემზადება.',
         ctaReserve: 'მაგიდის დაჯავშნა', ctaMenu: 'მენიუს ნახვა'
       }
     },
@@ -762,22 +762,22 @@ const ui = {
     contact: {
       hero: {
         kicker: 'კონტაქტი და დაჯავშნა',
-        title: 'დაგვიკავშირდით — ან პირდაპირ დაჯავშნეთ მაგიდა',
-        lead: 'მაგიდის დასაჯავშნად, მენიუზე შეკითხვისთვის ან კერძო ღონისძიებისთვის — მოგვწერეთ აქ, ან დარეკეთ მარჯვნივ მითითებულ ნომერზე. ყველა შეტყობინებას ვკითხულობთ.'
+        title: 'მოვძებნოთ თქვენთვის მაგიდა',
+        lead: 'შეკითხვა მენიუზე, მაგიდის დაჯავშნა თუ კერძო ღონისძიება — მოგვწერეთ ქვემოთ ან დარეკეთ მარჯვნივ მითითებულ ნომერზე. ყველა შეტყობინებას ვკითხულობთ.'
       },
       form: {
-        sectionKicker: 'შეტყობინების გაგზავნა', sectionTitle: 'დაგვიკავშირდით',
-        sectionSub: 'მიუთითეთ თარიღი, სტუმრების რაოდენობა ან უბრალოდ დაწერეთ, რაც გაინტერესებთ — ჩვეულებრივ ერთი დღის განმავლობაში ვპასუხობთ.',
+        sectionKicker: 'მოგვწერეთ', sectionTitle: 'სიამოვნებით მოვისმენთ',
+        sectionSub: 'თარიღი, სტუმრების რაოდენობა თუ უბრალოდ შეკითხვა — გვითხარით, რა გაინტერესებთ. ჩვეულებრივ ერთი დღის განმავლობაში ვპასუხობთ.',
         fields: { name: 'სახელი', email: 'ელფოსტა', phone: 'ტელეფონი', topic: 'თემა', message: 'შეტყობინება' },
         placeholders: { name: 'თქვენი სახელი', email: 'you@example.com', phone: '+995 …', message: 'რით შეგვიძლია დაგეხმაროთ?' },
         options: { choose: 'აირჩიეთ თემა', enquiry: 'ზოგადი შეკითხვა', reservation: 'დაჯავშნა', other: 'სხვა' },
-        emailSubject: 'ახალი შეტყობინება Aladin Kitchen-ის საკონტაქტო ფორმიდან',
+        emailSubject: 'ახალი მოთხოვნა Aladin Kitchen-ის საიტიდან',
         submit: 'გაგზავნა',
-        success: 'გმადლობთ — შეტყობინება მიღებულია. ჩვეულებრივ ერთი დღის განმავლობაში ვპასუხობთ; დღევანდელი დაჯავშნისთვის სჯობს დაგვირეკოთ.',
-        error: 'რაღაც ვერ გამოვიდა და შეტყობინება ვერ გაიგზავნა. სცადეთ ხელახლა ან პირდაპირ დაგვირეკეთ — ნომერი მარჯვნივაა.'
+        success: 'შეტყობინება მიღებულია — გმადლობთ. ჩვეულებრივ ერთი დღის განმავლობაში ვპასუხობთ; დღევანდელი დაჯავშნისთვის დარეკვა უფრო სწრაფია.',
+        error: 'რაღაც ვერ გამოვიდა და შეტყობინება ვერ გაიგზავნა. სცადეთ ხელახლა ან პირდაპირ დაგვირეკეთ.'
       },
       faq: {
-        kicker: 'სანამ მოგვწერთ', title: 'ხშირად დასმული კითხვები',
+        kicker: 'სანამ მოგვწერთ', title: 'კარგი იქნება, თუ იცით',
         items: [
           { q: 'რა სამუშაო საათები გაქვთ?', a: 'ღიები ვართ ყოველდღე: ორშაბათიდან ხუთშაბათამდე და კვირას 11:00-დან 23:00-მდე, პარასკევ-შაბათს — 11:00-დან 24:00-მდე.' },
           { q: 'ჯავშნავთ მაგიდას? რამდენი კაცისთვის?', a: 'დიახ — ამ ფორმით, ტელეფონით ან WhatsApp-ით. რვაზე მეტი კაცის ჯგუფისთვის სჯობს მოკლედ დაგვირეკოთ — ასე უფრო ადვილია შესაფერისი მაგიდისა და მენიუს მომზადება.' },
@@ -790,63 +790,63 @@ const ui = {
     },
 
     eventsPage: {
-      kicker: 'წამები', title: 'ჩვენი ღონისძიებები',
-      lead: 'წელიწადში რამდენიმე საღამო ჩვენი დარბაზი სხვა რამედ იქცევა — საკონცერტო დარბაზად ან ცეცხლის წრედ. აი, რა გვაქვს კალენდარში.',
-      sectionKicker: 'კალენდარში', sectionTitle: 'შექმენით მოგონება'
+      kicker: 'რა ხდება', title: 'ღონისძიებები Aladin Kitchen-ში',
+      lead: 'წელიწადში რამდენიმე საღამო ჩვენი დარბაზი სულ სხვა ადგილად იქცევა — საკონცერტო დარბაზად ან ცეცხლის წრედ. აი, რა ემზადება.',
+      sectionKicker: 'კალენდარში', sectionTitle: 'საღამოები, რომლებიც დაგეგმვას იმსახურებს'
     },
 
     coursesPage: {
       kicker: 'ჩანაწერები სამზარეულოდან', title: 'სუფრის ეტაპები',
-      lead: 'სპარსული სუფრა არ ჩქარობს — ის ეტაპებად მოდის. სამი მოკლე ჩანაწერი იმაზე, რა მოდის პირველი, რა მოდის ნახშირიდან და რით სრულდება საღამო.',
+      lead: 'სპარსული სუფრა დროს არ ზოგავს — ეტაპობრივად იშლება. სამი მოკლე ისტორია იმაზე, რა მოდის პირველი, რა მოდის ცეცხლიდან, და რით სრულდება საღამო.',
       sectionKicker: 'დღიურიდან', sectionTitle: 'სამი ეტაპი, სამი ამბავი', sub: 'ყოველი ჩანაწერი იქ სრულდება, სადაც კერძი მენიუში იწყება.',
-      cta: 'ჩანაწერის წაკითხვა'
+      cta: 'გაგრძელების წაკითხვა'
     },
 
     courses: {
       c1tag: 'წასახემსებელი', c1title: 'რა მოდის სუფრაზე პირველი',
-      c1text: 'ქაბაბამდე, ბრინჯამდე — სუფრაზე რამდენიმე პატარა თეფშია: ქაშქე ბადემჯანი ჯერ კიდევ თბილი ტაფიდან, ახალი მწვანილი, პური თონედან. აქ იწყებს სპარსული სუფრა შენელებას.',
+      c1text: 'ქაბაბამდე, ბრინჯამდე სუფრაზე რამდენიმე პატარა თეფში ჩნდება: ქაშქე ბადემჯანი პირდაპირ ტაფიდან, ახალი მწვანილი, თბილი პური თონედან. სწორედ აქ სწავლობს სპარსული სუფრა შენელებას.',
       c1meta: 'თავი 01 · მეზე და წასახემსებელი',
-      c2tag: 'ქაბაბი', c2title: 'რისთვის არის ცეცხლი',
-      c2text: 'ბახტიარი, ქუბიდე, ბარგი — ნახშირი მარტო არაფერს წყვეტს, წყვეტს ხელი, რომელიც შამფურს ატრიალებს. მარინადი, დრო და ბოლო წუთი ღია ნახშირზე განასხვავებს კარგ ქაბაბს ჩვენგან.',
-      c2meta: 'თავი 02 · ნახშირიდან',
-      c3tag: 'დესერტი და ჩაი', c3title: 'როგორ სრულდება აქ საღამო',
-      c3text: 'არცერთი ეტაპი აქ არ ჩქარობს დასრულებას. შავი ჩაი სამოვრიდან, ფახლავა ფისტით, ბოლო დაუსწრებელი ნახევარი საათი მაგიდასთან — სუფრის ის ნაწილი, რომელსაც არავინ უკვეთავს, მაგრამ ყველა ახსოვს.',
+      c2tag: 'თევზი და ზღვის პროდუქტები', c2title: 'რისთვის არის სინამდვილეში ცეცხლი',
+      c2text: 'ზღვის ბასი, რვაფეხა, ყურის კრევეტები — ნახშირი მარტო არაფერს წყვეტს, წყვეტს ხელი, რომელიც მას მართავს. ციტრუსული მარინადი, ნაზი ალი და ბოლო წუთი ღია ცეცხლზე გამოარჩევს ჩვენს თევზს.',
+      c2meta: 'თავი 02 · დაჭერიდან ნახშირამდე',
+      c3tag: 'დესერტი და დიჯესტივი', c3title: 'როგორ ცხრება აქ საღამო',
+      c3text: 'არცერთი ეტაპი აქ არ ჩქარობს დასრულებას. ცივი მასტიკის ლიქიორი, თბილი ხორბლის ფქვილის ჰალვა ლიმონის ქერქით, კიდევ ნახევარი საათი მაგიდასთან უსწრაფოდ — სუფრის ის ნაწილი, რომელსაც არავინ უკვეთავს, მაგრამ ყველა ახსოვს.',
       c3meta: 'თავი 03 · ტკბილი და სამოვარი'
     },
 
     gallery: {
-      kicker: '03 — სუფრასთან', title: 'ასე გამოიყურება აქ',
+      kicker: '03 — სუფრასთან', title: 'შიგნიდან ერთი მზერა',
       c1: 'ცხვრის ნეკნები შანდიზულად, 24 საათი მარინადში.',
-      c2: 'შავი ჩაი სამოვრიდან, ფახლავა ფისტით.',
+      c2: 'შავი ჩაი სამოვრიდან, გვერდით ფახლავა ფისტით.',
       c3: 'ბადრიჯანი შრატით, პიტნის ზეთითა და შემწვარი ხახვით.',
       c4: 'შესასვლელი თბილისის ძველ ქალაქში.',
-      c5: 'კრევეტები, კალმარი და დღის თევზი.',
-      c6: 'მთლიანი დორადო ნახშირზე, მწვანილით შიგთავსით.'
+      c5: 'კრევეტები, კალმარი და დღის დაჭერა.',
+      c6: 'მთლიანი დორადო ნახშირზე, ახალი მწვანილით შიგთავსით.'
     },
 
     events: {
-      kicker: '04 — ღონისძიებები', title: 'მუსიკა, დღესასწაულები, გრძელი საღამოები',
-      sub: 'ნოვრუზზე, ჩარშანბე სურზე და სრულიად ჩვეულებრივ პარასკევებზე ჩვენთან ცოცხალი მუსიკა ჟღერს. ამ საღამოებზე ადრე დაჯავშნეთ — დარბაზი სწრაფად ივსება.',
+      kicker: '04 — ატმოსფერო', title: 'მუსიკა, ნადიმები, გრძელი საღამოები',
+      sub: 'ნოვრუზზე, ჩარშანბე სურზე და ხანდახან სრულიად ჩვეულებრივ პარასკევსაც კი ჩვენთან ცოცხალი მუსიკა ჟღერს. ადრე დაჯავშნეთ — ასეთი საღამოები სწრაფად ივსება.',
       e1date: '19 მარტი · ნოვრუზი', e1title: 'ცოცხალი კონცერტი ახალი წლისთვის',
-      e1text: 'სამი მუსიკოსი, ერთი საღამო, მთელი სახლი: სპარსული კლასიკა ცოცხლად 20:00 საათიდან, სამზარეულოს ნოვრუზის მენიუთი.',
+      e1text: 'სამი მუსიკოსი, ერთი საღამო, მთელი დარბაზი აჰყვება სიმღერას — სპარსული კლასიკა ცოცხლად 20:00-დან, ნოვრუზის მენიუსთან ერთად.',
       e2date: 'წლის ბოლო სამშაბათი', e2title: 'ჯაშნ-ე ჩარშანბე სური',
-      e2text: 'ცეცხლის დღესასწაული ნოვრუზამდე: აჯილ-ე მოშქელ-გოშა, მუსიკა და მენიუ, რომელიც ზამთარს აცილებს.',
+      e2text: 'ცეცხლის დღესასწაული ნოვრუზამდე — აჯილ-ე მოშქელ-გოშა, ცოცხალი მუსიკა და მენიუ, რომელიც ზამთარს სათანადოდ აცილებს.',
       cta: 'ადგილის დაჯავშნა'
     },
 
     visit: {
-      kicker: '05 — მისამართი', title: 'გვეწვიეთ',
-      sub: 'ორი წუთი მეტეხის ხიდიდან, ძველი ქალაქის შუაგულში. ვემსახურებით შიგნითაც და გარეთაც — დიდი კომპანიისთვის ჯობია მოკლედ დაგვირეკოთ.',
+      kicker: '05 — გვეწვიეთ', title: 'როგორ მოგვაგნოთ',
+      sub: 'ორი წუთი მეტეხის ხიდიდან, ძველი ქალაქის ცენტრში. ვემსახურებით შიგნითაც და გარეთაც — დიდი კომპანიისთვის მოკლე ზარი გვეხმარება.',
       address: 'მისამართი', contact: 'კონტაქტი', hours: 'სამუშაო საათები',
-      whatsapp: 'ასევე WhatsApp-ზე', map: 'რუკაზე',
+      whatsapp: 'ასევე WhatsApp-ზე', map: 'რუკაზე გახსნა',
       street: 'შავთელის ქუჩა 5', city: '0105 თბილისი, საქართველო',
       row1: 'ორშ – ხუთ', row2: 'პარ – შაბ', row3: 'კვირა',
       ctaReserve: 'მაგიდის დაჯავშნა', ctaMenu: 'მენიუ'
     },
 
     instagram: {
-      kicker: '06 — გამოგვყევით', title: 'სამზარეულოდან — პირდაპირ Instagram-ში',
-      sub: 'უახლესი კერძები, საღამოები და კულისებს მიღმა მომენტები — მაშინვე, როცა ხდება.',
+      kicker: '06 — გამოგვყევით', title: 'ახალი პირდაპირ სამზარეულოდან',
+      sub: 'ახალი კერძები, საღამოები და კულისებს მიღმა მომენტები — მაშინვე, როცა ხდება.',
       cta: 'გამოგვყევით @aladinkitchen.ge'
     },
 
@@ -855,21 +855,21 @@ const ui = {
       pages: 'გვერდები', visit: 'მისამართი', contact: 'კონტაქტი',
       hoursLink: 'სამუშაო საათები', directions: 'როგორ მოგვაგნოთ', reservation: 'დაჯავშნა',
       gallery: 'გალერეა',
-      copyright: '© {y} რესტორანი Aladin Kitchen, თბილისი',
+      copyright: '© {y} Aladin Kitchen, თბილისი',
       credit: 'გაფორმება სტაილგაიდ „Classical“-ის მიხედვით'
     },
 
     menuPage: {
       kicker: 'Aladin Kitchen · თბილისი', title: 'მენიუ',
-      lead: '{c} თავი, {n} კერძი. ყველაფერი ახლად მზადდება — ქაბაბი ნახშირიდან მოდის, ხორეშთი დილიდან ცეცხლზეა. ყოველ კერძს თან ახლავს ფოტო ჩვენივე სამზარეულოდან.',
-      priceNotice: 'ფასები ამჟამად ივსება. მიმდინარე ფასებს სიამოვნებით გეტყვით ტელეფონით.',
-      catNav: 'მენიუს კატეგორიები', searchLabel: 'კერძის ძებნა', searchPlaceholder: 'იპოვეთ კერძი…',
+      lead: '{c} თავი, {n} კერძი — ყველაფერი შეკვეთისთანავე მზადდება. ქაბაბი პირდაპირ ნახშირიდან მოდის, ხორეშთი დილიდან ცეცხლზეა. ყოველ კერძს თან ახლავს ფოტო ჩვენივე სამზარეულოდან.',
+      priceNotice: 'ფასები ახლა ემატება — დაგვირეკეთ და დაუყოვნებლივ გეტყვით.',
+      catNav: 'მენიუს კატეგორიები', searchLabel: 'ძებნა მენიუში', searchPlaceholder: 'რას ეძებთ…',
       filterLabel: 'ფილტრი',
-      noResultsTitle: 'კერძი ვერ მოიძებნა.', noResultsSub: 'სცადეთ სხვა დაწერილობა — ან გაასუფთავეთ ფილტრები.',
+      noResultsTitle: 'ვერაფერი მოიძებნა.', noResultsSub: 'სცადეთ სხვა დაწერილობა — ან გაასუფთავეთ ფილტრები.',
       reset: 'ფილტრების გასუფთავება',
       zoom: 'გაადიდეთ ფოტო: {name}',
       outroKicker: 'გემრიელად მიირთვით', outroTitle: 'ნუშე ჯან',
-      outroText: 'ალერგია, აუტანლობა თუ სურვილი სუფრასთან? გვითხარით და სამზარეულო მოერგება.',
+      outroText: 'ალერგია, აუტანლობა თუ სურვილი სუფრასთან? უბრალოდ გვითხარით — სამზარეულო მოერგება.',
       ctaReserve: 'მაგიდის დაჯავშნა', ctaVisit: 'მისამართი და საათები'
     },
 

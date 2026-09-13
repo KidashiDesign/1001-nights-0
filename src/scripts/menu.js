@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════════════════
-   1001 Nights — Speisekarte, Bedienung
+   Aladin Kitchen — Speisekarte, Bedienung
    ──────────────────────────────────────────────────────────────────────────
    Das Markup der Karte steht fertig im HTML — Astro rendert es beim Bauen aus
    src/data/menu.js. Diese Datei fügt nur die Bedienung hinzu und liest

@@ -30,7 +30,7 @@ const contentCheck = {
 };
 
 export default defineConfig({
-  site: 'https://1001nights.ge',
+  site: 'https://aladinkitchen.ge',
   trailingSlash: 'ignore',
   build: { format: 'preserve', inlineStylesheets: 'auto' },
   compressHTML: true,

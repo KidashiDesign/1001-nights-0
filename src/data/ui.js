@@ -1,12 +1,12 @@
 /* ══════════════════════════════════════════════════════════════════════════
-   1001 Nights — interface and page copy, one block per language
+   Aladin Kitchen — interface and page copy, one block per language
    ──────────────────────────────────────────────────────────────────────────
    English is the default language and lives at the site root. The other three
    sit in their own folders: /fa/ (right-to-left), /ru/, /ka/.
    Every block carries the same keys — tools/build.mjs checks that on build.
 
-   The wordmark stays "1001 Nights" in every language so the sign outside and
-   the site read as one; `brandSub` carries the local subtitle from the
+   The wordmark stays "Aladin Kitchen" in every language so the sign outside
+   and the site read as one; `brandSub` carries the local subtitle from the
    restaurant's own storefront.
    ═════════════════════════════════════════════════════════════════════════ */
 
@@ -26,29 +26,29 @@ const ui = {
     skipToContent: 'Skip to content',
 
     meta: {
-      homeTitle: '1001 Nights — Persian Restaurant in Tbilisi',
-      homeDesc: 'Persian cooking in the old town of Tbilisi: kebab over charcoal, khoresht from the pot, saffron rice and tea from the samovar. Kote Apkhazi 9.',
-      menuTitle: 'Menu — 1001 Nights, Persian Restaurant in Tbilisi',
-      menuDesc: 'The menu of 1001 Nights in Tbilisi: starters, charcoal kebab, Persian stews, rice dishes, fish and sweets — every dish with a photo.',
-      aboutTitle: 'About us — 1001 Nights, Persian Restaurant in Tbilisi',
-      aboutDesc: 'The story, the kitchen and what we hold to at 1001 Nights: Persian hospitality in the old town of Tbilisi, since 2012.',
-      eventsTitle: 'Events — 1001 Nights, Persian Restaurant in Tbilisi',
-      eventsDesc: 'Live music nights, the Charshanbe Souri fire festival and the evenings that turn our dining room into something else — see what’s coming up at 1001 Nights.',
-      coursesTitle: 'Courses — 1001 Nights, Persian Restaurant in Tbilisi',
-      coursesDesc: 'Notes from the kitchen on the three courses of a Persian table — starters, the fire, and the sweet finish — and what to order when you sit down at 1001 Nights.',
-      contactTitle: 'Contact — 1001 Nights, Persian Restaurant in Tbilisi',
-      contactDesc: 'Reach 1001 Nights in Tbilisi: send a message for a reservation or a question, or call us directly. Address, hours and answers to common questions.'
+      homeTitle: 'Aladin Kitchen — Persian Restaurant in Tbilisi',
+      homeDesc: 'Persian cooking in the old town of Tbilisi: kebab over charcoal, khoresht from the pot, saffron rice and tea from the samovar. Shavteli St. 5.',
+      menuTitle: 'Menu — Aladin Kitchen, Persian Restaurant in Tbilisi',
+      menuDesc: 'The menu of Aladin Kitchen in Tbilisi: starters, charcoal kebab, Persian stews, rice dishes, fish and sweets — every dish with a photo.',
+      aboutTitle: 'About us — Aladin Kitchen, Persian Restaurant in Tbilisi',
+      aboutDesc: 'The story, the kitchen and what we hold to at Aladin Kitchen: Persian hospitality in the old town of Tbilisi, since 2015.',
+      eventsTitle: 'Events — Aladin Kitchen, Persian Restaurant in Tbilisi',
+      eventsDesc: 'Live music nights, the Charshanbe Souri fire festival and the evenings that turn our dining room into something else — see what’s coming up at Aladin Kitchen.',
+      coursesTitle: 'Courses — Aladin Kitchen, Persian Restaurant in Tbilisi',
+      coursesDesc: 'Notes from the kitchen on the three courses of a Persian table — starters, the fire, and the sweet finish — and what to order when you sit down at Aladin Kitchen.',
+      contactTitle: 'Contact — Aladin Kitchen, Persian Restaurant in Tbilisi',
+      contactDesc: 'Reach Aladin Kitchen in Tbilisi: send a message for a reservation or a question, or call us directly. Address, hours and answers to common questions.'
     },
 
     nav: { menu: 'Menu', restaurant: 'Restaurant', experience: 'Experience', visit: 'Visit', homeLabel: 'Home', about: 'About', events: 'Events', courses: 'Courses', contact: 'Contact',
-           reserve: 'Reserve', reserveLong: 'Book a table', openMenu: 'Open menu', main: 'Main navigation', home: '1001 Nights — home' },
+           reserve: 'Reserve', reserveLong: 'Book a table', openMenu: 'Open menu', main: 'Main navigation', home: 'Aladin Kitchen — home' },
 
     hero: {
-      kicker: 'Persian kitchen · Tbilisi, since 2012',
+      kicker: 'Persian kitchen · Tbilisi, since 2015',
       tagline: 'A thousand flavours, a thousand stories.',
-      sub: 'Kebab over charcoal, khoresht from the pot, rice with a golden crust. In the heart of the old town, on Kote Apkhazi.',
+      sub: 'Kebab over charcoal, khoresht from the pot, rice with a golden crust. In the heart of the old town, on Shavteli Street.',
       ctaMenu: 'See the menu', ctaReserve: 'Book a table',
-      fact1: 'Kote Apkhazi 9', fact2: 'Daily 11–23', fact3: 'Halal · family run'
+      fact1: 'Shavteli St. 5', fact2: 'Daily 11–23', fact3: 'Halal · family run'
     },
 
     marquee: ['Saffron', 'Pomegranate', 'Charcoal', 'Dried lime', 'Tahdig', 'Sumac', 'Rose water', 'Pistachio'],
@@ -56,7 +56,7 @@ const ui = {
     story: {
       kicker: '01 — The house',
       titleA: 'An evening that', titleB: 'refuses to end',
-      lead: 'Behind the yellow façade on Kote Apkhazi is a room where the same thing has happened for more than ten years: the grill glows from midday, the pots have been on a low flame since morning, and at some point in the evening somebody starts to sing.',
+      lead: 'Behind the old stone façade on Shavteli Street is a room where the same thing has happened for more than ten years: the grill glows from midday, the pots have been on a low flame since morning, and at some point in the evening somebody starts to sing.',
       body: 'Our kitchen came from Isfahan and Shiraz — and picked up whatever it liked on the way to Tbilisi: the sumac of the Levant, the baharat of the Gulf, Georgian bread from the clay oven. What stays is the Persian rule: no spice pushes to the front, everything is given time.',
       stat1: 'Years in Tbilisi', stat2: 'Dishes on the menu', stat3: 'Hours for one Māhiche',
       link: 'Opening hours & directions', badgeSince: 'Since', badgeCity: 'Tbilisi'
@@ -75,12 +75,12 @@ const ui = {
       hero: {
         kicker: 'About us',
         title: 'A house that keeps its own time',
-        lead: 'Kote Apkhazi 9 has smelled of charcoal and saffron since 2012. This is the story of the kitchen behind it — where it came from, what it believes, and who keeps the fire going.'
+        lead: 'Shavteli St. 5 has smelled of charcoal and saffron since 2015. This is the story of the kitchen behind it — where it came from, what it believes, and who keeps the fire going.'
       },
       story: {
         kicker: '01 — Where it started',
         titleA: 'From Isfahan', titleB: 'to the old town',
-        lead: 'The recipes travelled before we did: a grandmother’s khoresht, a father’s way with a skewer, a whole family’s sense of when the rice is ready and when it isn’t. 1001 Nights opened in 2012 on one idea — cook the way we were taught, and let Tbilisi in.',
+        lead: 'The recipes travelled before we did: a grandmother’s khoresht, a father’s way with a skewer, a whole family’s sense of when the rice is ready and when it isn’t. Aladin Kitchen opened in 2015 on one idea — cook the way we were taught, and let Tbilisi in.',
         body: 'The city gave something back. Georgian bread came out of the clay oven and onto our tables; a Levantine touch of sumac found its way into a Persian stew; the old town’s slow evenings taught us to stop rushing the tea. None of it changed what the kitchen believes — that a dish needs time more than it needs anything else.',
         extra: 'Ten years on, the grill still glows from midday and the pots still simmer from morning. The room fills the way it always has: family first, then friends, then whoever is walking past and follows the smell inside.',
         stat1: 'Years in Tbilisi', stat2: 'Dishes on the menu', stat3: 'Hours for one Māhiche',
@@ -128,7 +128,7 @@ const ui = {
         fields: { name: 'Name', email: 'Email', phone: 'Phone', topic: 'What is this about?', message: 'Message' },
         placeholders: { name: 'Your name', email: 'you@example.com', phone: '+995 …', message: 'How can we help?' },
         options: { choose: 'Please choose', enquiry: 'General enquiry', reservation: 'Reservation', other: 'Other' },
-        emailSubject: 'New message from the 1001 Nights contact form',
+        emailSubject: 'New message from the Aladin Kitchen contact form',
         submit: 'Send message',
         success: 'Thank you — your message has reached us. We usually reply within a day; for a same-day reservation it’s best to also call.',
         error: 'Something went wrong and the message didn’t send. Please try again, or call us directly — the number is on the right.'
@@ -140,7 +140,7 @@ const ui = {
           { q: 'Do you take reservations, and for how many people?', a: 'Yes — through this form, by phone or on WhatsApp. For groups larger than eight, a quick call helps us prepare the right table and menu.' },
           { q: 'Is the kitchen halal, and can you handle allergies or diets?', a: 'Yes, our kitchen is halal. Tell us about allergies or dietary needs in your message or when you book, and the kitchen will work around them.' },
           { q: 'Do you offer delivery or takeaway?', a: 'Takeaway is available — call ahead and we’ll have it ready. For delivery within Tbilisi, ask us on the phone about current partners and areas.' },
-          { q: 'Where exactly are you, and is there parking?', a: 'Kote Apkhazi St. 9, two minutes from the Metekhi bridge in the old town. Street parking nearby is limited — on busy evenings a taxi or a short walk is easiest.' },
+          { q: 'Where exactly are you, and is there parking?', a: 'Shavteli St. 5, two minutes from Sioni Cathedral in the old town. Street parking nearby is limited — on busy evenings a taxi or a short walk is easiest.' },
           { q: 'Are children welcome?', a: 'Very much — we are a family restaurant. Ask for a high chair when you book and we will have one ready.' }
         ]
       }
@@ -197,7 +197,7 @@ const ui = {
       sub: 'Two minutes from the Metekhi bridge, in the middle of the old town. We serve inside and out — for larger groups, a quick call is best.',
       address: 'Address', contact: 'Contact', hours: 'Opening hours',
       whatsapp: 'Also on WhatsApp', map: 'On the map',
-      street: 'Kote Apkhazi St. 9', city: '0105 Tbilisi, Georgia',
+      street: 'Shavteli St. 5', city: '0105 Tbilisi, Georgia',
       row1: 'Mon – Thu', row2: 'Fri – Sat', row3: 'Sunday',
       ctaReserve: 'Book a table', ctaMenu: 'Menu'
     },
@@ -205,7 +205,7 @@ const ui = {
     instagram: {
       kicker: '06 — Follow us', title: 'Fresh from the kitchen, on Instagram',
       sub: 'New plates, evenings and behind-the-scenes moments — posted as they happen.',
-      cta: 'Follow @1001nights.ge'
+      cta: 'Follow @aladinkitchen.ge'
     },
 
     footer: {
@@ -213,12 +213,12 @@ const ui = {
       pages: 'Pages', visit: 'Visit', contact: 'Contact',
       hoursLink: 'Opening hours', directions: 'Directions', reservation: 'Reservation',
       gallery: 'Gallery',
-      copyright: '© {y} 1001 Nights Restaurant, Tbilisi',
+      copyright: '© {y} Aladin Kitchen Restaurant, Tbilisi',
       credit: 'Designed on the “Classical” styleguide'
     },
 
     menuPage: {
-      kicker: '1001 Nights · Tbilisi', title: 'Menu',
+      kicker: 'Aladin Kitchen · Tbilisi', title: 'Menu',
       lead: '{c} chapters, {n} dishes. Everything is cooked to order — kebab comes off the charcoal, khoresht has been on the flame since morning. Every dish is shown with the photo from our own kitchen.',
       priceNotice: 'Prices are being added right now. We are glad to give you current prices over the phone.',
       catNav: 'Menu categories', searchLabel: 'Search for a dish', searchPlaceholder: 'Search a dish…',
@@ -241,29 +241,29 @@ const ui = {
     skipToContent: 'رفتن به محتوا',
 
     meta: {
-      homeTitle: 'هزار و یک شب — رستوران ایرانی در تفلیس',
-      homeDesc: 'آشپزی ایرانی در بافت قدیم تفلیس: کباب روی زغال، خورش، چلو زعفرانی و چای سماور. کوته آپخازی ۹.',
-      menuTitle: 'منو — رستوران ایرانی هزار و یک شب، تفلیس',
-      menuDesc: 'منوی رستوران هزار و یک شب تفلیس: پیش‌غذا، کباب، خورش، پلو، ماهی و شیرینی — با عکس هر غذا.',
-      aboutTitle: 'درباره ما — رستوران ایرانی هزار و یک شب، تفلیس',
-      aboutDesc: 'داستان، آشپزخانه و آنچه در هزار و یک شب به آن پایبندیم: مهمان‌نوازی ایرانی در بافت قدیم تفلیس، از سال ۲۰۱۲.',
-      eventsTitle: 'رویدادها — رستوران ایرانی هزار و یک شب، تفلیس',
-      eventsDesc: 'شب‌های موسیقی زنده، جشن آتش چهارشنبه‌سوری و شب‌هایی که سالن ما را به چیز دیگری تبدیل می‌کنند — ببینید در هزار و یک شب چه در راه است.',
-      coursesTitle: 'مراحل سفره — رستوران ایرانی هزار و یک شب، تفلیس',
-      coursesDesc: 'یادداشت‌هایی از آشپزخانه درباره سه مرحله سفره ایرانی — پیش‌غذا، آتش و پایان شیرین — و اینکه در هزار و یک شب چه سفارش دهید.',
-      contactTitle: 'تماس — رستوران ایرانی هزار و یک شب، تفلیس',
-      contactDesc: 'راه‌های تماس با هزار و یک شب در تفلیس: برای رزرو یا سوال پیام بفرستید یا مستقیم تماس بگیرید. نشانی، ساعت کار و پاسخ پرسش‌های پرتکرار.'
+      homeTitle: 'Aladin Kitchen — رستوران ایرانی در تفلیس',
+      homeDesc: 'آشپزی ایرانی در بافت قدیم تفلیس: کباب روی زغال، خورش، چلو زعفرانی و چای سماور. خیابان شاوتلی ۵.',
+      menuTitle: 'منو — رستوران ایرانی Aladin Kitchen، تفلیس',
+      menuDesc: 'منوی رستوران Aladin Kitchen تفلیس: پیش‌غذا، کباب، خورش، پلو، ماهی و شیرینی — با عکس هر غذا.',
+      aboutTitle: 'درباره ما — رستوران ایرانی Aladin Kitchen، تفلیس',
+      aboutDesc: 'داستان، آشپزخانه و آنچه در Aladin Kitchen به آن پایبندیم: مهمان‌نوازی ایرانی در بافت قدیم تفلیس، از سال ۲۰۱۵.',
+      eventsTitle: 'رویدادها — رستوران ایرانی Aladin Kitchen، تفلیس',
+      eventsDesc: 'شب‌های موسیقی زنده، جشن آتش چهارشنبه‌سوری و شب‌هایی که سالن ما را به چیز دیگری تبدیل می‌کنند — ببینید در Aladin Kitchen چه در راه است.',
+      coursesTitle: 'مراحل سفره — رستوران ایرانی Aladin Kitchen، تفلیس',
+      coursesDesc: 'یادداشت‌هایی از آشپزخانه درباره سه مرحله سفره ایرانی — پیش‌غذا، آتش و پایان شیرین — و اینکه در Aladin Kitchen چه سفارش دهید.',
+      contactTitle: 'تماس — رستوران ایرانی Aladin Kitchen، تفلیس',
+      contactDesc: 'راه‌های تماس با Aladin Kitchen در تفلیس: برای رزرو یا سوال پیام بفرستید یا مستقیم تماس بگیرید. نشانی، ساعت کار و پاسخ پرسش‌های پرتکرار.'
     },
 
     nav: { menu: 'منو', restaurant: 'رستوران', experience: 'برنامه‌ها', visit: 'نشانی', homeLabel: 'خانه', about: 'درباره ما', events: 'رویدادها', courses: 'مراحل سفره', contact: 'تماس',
-           reserve: 'رزرو', reserveLong: 'رزرو میز', openMenu: 'باز کردن منو', main: 'ناوبری اصلی', home: 'هزار و یک شب — صفحه اصلی' },
+           reserve: 'رزرو', reserveLong: 'رزرو میز', openMenu: 'باز کردن منو', main: 'ناوبری اصلی', home: 'Aladin Kitchen — صفحه اصلی' },
 
     hero: {
-      kicker: 'آشپزی ایرانی · تفلیس، از ۲۰۱۲',
+      kicker: 'آشپزی ایرانی · تفلیس، از ۲۰۱۵',
       tagline: 'هزار طعم، هزار قصه.',
-      sub: 'کباب روی زغال، خورش از دیگ، چلو با ته‌دیگ طلایی. در قلب بافت قدیم تفلیس، خیابان کوته آپخازی.',
+      sub: 'کباب روی زغال، خورش از دیگ، چلو با ته‌دیگ طلایی. در قلب بافت قدیم تفلیس، خیابان شاوتلی.',
       ctaMenu: 'دیدن منو', ctaReserve: 'رزرو میز',
-      fact1: 'کوته آپخازی ۹', fact2: 'هر روز ۱۱ تا ۲۳', fact3: 'حلال · خانوادگی'
+      fact1: 'خیابان شاوتلی ۵', fact2: 'هر روز ۱۱ تا ۲۳', fact3: 'حلال · خانوادگی'
     },
 
     marquee: ['زعفران', 'انار', 'زغال', 'لیمو عمانی', 'ته‌دیگ', 'سماق', 'گلاب', 'پسته'],
@@ -271,7 +271,7 @@ const ui = {
     story: {
       kicker: '۰۱ — این خانه',
       titleA: 'شبی که', titleB: 'تمام نمی‌شود',
-      lead: 'پشت نمای زرد خیابان کوته آپخازی اتاقی است که بیش از ده سال است همین اتفاق در آن می‌افتد: منقل از ظهر گر می‌گیرد، دیگ‌ها از صبح روی شعله ملایم‌اند، و جایی در دل شب کسی شروع به خواندن می‌کند.',
+      lead: 'پشت نمای سنگی خیابان شاوتلی اتاقی است که بیش از ده سال است همین اتفاق در آن می‌افتد: منقل از ظهر گر می‌گیرد، دیگ‌ها از صبح روی شعله ملایم‌اند، و جایی در دل شب کسی شروع به خواندن می‌کند.',
       body: 'آشپزخانه ما از اصفهان و شیراز آمد — و در راه تفلیس هر چه پسندید با خود آورد: سماق شام، بهارات خلیج، نان گرجی از تنور. آنچه می‌ماند همان قاعده ایرانی است: هیچ ادویه‌ای خود را جلو نمی‌اندازد، همه چیز وقت می‌خواهد.',
       stat1: 'سال در تفلیس', stat2: 'غذا در منو', stat3: 'ساعت برای یک ماهیچه',
       link: 'ساعت کار و نشانی', badgeSince: 'از سال', badgeCity: 'تفلیس'
@@ -290,12 +290,12 @@ const ui = {
       hero: {
         kicker: 'درباره ما',
         title: 'خانه‌ای با ساعت خودش',
-        lead: 'کوته آپخازی ۹ از سال ۲۰۱۲ بوی زغال و زعفران می‌دهد. این داستان آشپزخانه‌ای است که پشت آن است — از کجا آمد، به چه پایبند است، و چه کسی آتشش را روشن نگه می‌دارد.'
+        lead: 'خیابان شاوتلی ۵ از سال ۲۰۱۵ بوی زغال و زعفران می‌دهد. این داستان آشپزخانه‌ای است که پشت آن است — از کجا آمد، به چه پایبند است، و چه کسی آتشش را روشن نگه می‌دارد.'
       },
       story: {
         kicker: '۰۱ — از کجا شروع شد',
         titleA: 'از اصفهان', titleB: 'تا بافت قدیم',
-        lead: 'دستورها پیش از ما به راه افتادند: خورش مادربزرگی، دست پدری روی سیخ، و حس یک خانواده از اینکه برنج کی آماده است و کی نه. هزار و یک شب در سال ۲۰۱۲ با یک فکر باز شد — همان‌طور بپزیم که یادمان داده‌اند، و بگذاریم تفلیس هم وارد شود.',
+        lead: 'دستورها پیش از ما به راه افتادند: خورش مادربزرگی، دست پدری روی سیخ، و حس یک خانواده از اینکه برنج کی آماده است و کی نه. Aladin Kitchen در سال ۲۰۱۵ با یک فکر باز شد — همان‌طور بپزیم که یادمان داده‌اند، و بگذاریم تفلیس هم وارد شود.',
         body: 'شهر هم چیزی به ما داد. نان گرجی از تنور به سفره‌مان رسید؛ رد پای سماق شام در خورشی ایرانی نشست؛ شب‌های آرام بافت قدیم یادمان داد چای را عجله نکنیم. هیچ‌کدام باور آشپزخانه را عوض نکرد: یک غذا از هر چیزی بیشتر به وقت نیاز دارد.',
         extra: 'ده سال گذشته، منقل هنوز از ظهر گر می‌گیرد و دیگ‌ها هنوز از صبح روی شعله‌اند. سالن همان‌طور پر می‌شود که همیشه بوده: اول خانواده، بعد دوستان، بعد هر کسی که از جلوی در رد می‌شود و بوی غذا او را داخل می‌کشد.',
         stat1: 'سال در تفلیس', stat2: 'غذا در منو', stat3: 'ساعت برای یک ماهیچه',
@@ -343,7 +343,7 @@ const ui = {
         fields: { name: 'نام', email: 'ایمیل', phone: 'تلفن', topic: 'موضوع پیام', message: 'پیام' },
         placeholders: { name: 'نام شما', email: 'you@example.com', phone: '+995 …', message: 'چطور می‌توانیم کمک کنیم؟' },
         options: { choose: 'انتخاب کنید', enquiry: 'سوال عمومی', reservation: 'رزرو میز', other: 'موضوع دیگر' },
-        emailSubject: 'پیام جدید از فرم تماس هزار و یک شب',
+        emailSubject: 'پیام جدید از فرم تماس Aladin Kitchen',
         submit: 'ارسال پیام',
         success: 'سپاسگزاریم — پیام شما به دست ما رسید. معمولاً ظرف یک روز پاسخ می‌دهیم؛ برای رزرو همان روز بهتر است تماس بگیرید.',
         error: 'مشکلی پیش آمد و پیام ارسال نشد. لطفاً دوباره امتحان کنید یا مستقیم با ما تماس بگیرید — شماره کنار صفحه است.'
@@ -355,7 +355,7 @@ const ui = {
           { q: 'رزرو می‌گیرید؟ برای چند نفر؟', a: 'بله — از همین فرم، تلفن یا واتس‌اپ. برای گروه‌های بیش از هشت نفر، یک تماس کوتاه کمک می‌کند میز و منوی مناسب را آماده کنیم.' },
           { q: 'آشپزخانه حلال است؟ حساسیت غذایی را در نظر می‌گیرید؟', a: 'بله، آشپزخانه ما حلال است. حساسیت یا رژیم غذایی خود را در پیام یا هنگام رزرو بگویید تا آشپزخانه هماهنگ کند.' },
           { q: 'ارسال یا بیرون‌بر دارید؟', a: 'بیرون‌بر داریم — از قبل تماس بگیرید تا آماده باشد. برای ارسال در تفلیس، درباره مناطق و همکاران فعلی تلفنی بپرسید.' },
-          { q: 'دقیقاً کجا هستید؟ پارکینگ دارید؟', a: 'خیابان کوته آپخازی ۹، دو دقیقه تا پل متخی در بافت قدیم. پارکینگ خیابانی محدود است — شب‌های شلوغ، تاکسی یا پیاده‌روی کوتاه راحت‌تر است.' },
+          { q: 'دقیقاً کجا هستید؟ پارکینگ دارید؟', a: 'خیابان شاوتلی ۵، دو دقیقه تا کلیسای سیونی در بافت قدیم. پارکینگ خیابانی محدود است — شب‌های شلوغ، تاکسی یا پیاده‌روی کوتاه راحت‌تر است.' },
           { q: 'همراه بچه می‌شود آمد؟', a: 'با کمال میل — رستورانی خانوادگی هستیم. هنگام رزرو صندلی کودک بخواهید تا برایتان آماده کنیم.' }
         ]
       }
@@ -411,7 +411,7 @@ const ui = {
       sub: 'دو دقیقه تا پل متخی، وسط بافت قدیم. داخل و فضای باز، هر دو سرو می‌شود — برای گروه‌های بزرگ‌تر یک تماس کوتاه بهتر است.',
       address: 'نشانی', contact: 'تماس', hours: 'ساعت کار',
       whatsapp: 'واتس‌اپ هم داریم', map: 'روی نقشه',
-      street: 'خیابان کوته آپخازی ۹', city: '۰۱۰۵ تفلیس، گرجستان',
+      street: 'خیابان شاوتلی ۵', city: '۰۱۰۵ تفلیس، گرجستان',
       row1: 'دوشنبه – پنجشنبه', row2: 'جمعه – شنبه', row3: 'یکشنبه',
       ctaReserve: 'رزرو میز', ctaMenu: 'منو'
     },
@@ -419,7 +419,7 @@ const ui = {
     instagram: {
       kicker: '۰۶ — دنبال‌مان کنید', title: 'تازه‌ترین‌ها، در اینستاگرام',
       sub: 'تازه‌ترین غذاها، شب‌ها و لحظه‌های پشت صحنه — همان لحظه که اتفاق می‌افتند.',
-      cta: 'دنبال کردن @1001nights.ge'
+      cta: 'دنبال کردن @aladinkitchen.ge'
     },
 
     footer: {
@@ -427,12 +427,12 @@ const ui = {
       pages: 'صفحه‌ها', visit: 'نشانی', contact: 'تماس',
       hoursLink: 'ساعت کار', directions: 'مسیر', reservation: 'رزرو',
       gallery: 'گالری',
-      copyright: '© {y} رستوران هزار و یک شب، تفلیس',
+      copyright: '© {y} رستوران Aladin Kitchen، تفلیس',
       credit: 'طراحی بر پایه راهنمای سبک «Classical»'
     },
 
     menuPage: {
-      kicker: 'هزار و یک شب · تفلیس', title: 'منو',
+      kicker: 'Aladin Kitchen · تفلیس', title: 'منو',
       lead: '{c} فصل، {n} غذا. همه چیز تازه پخته می‌شود — کباب از روی زغال می‌آید و خورش از صبح روی شعله است. عکس هر غذا از آشپزخانه خودمان است.',
       priceNotice: 'قیمت‌ها در حال تکمیل است. قیمت روز را با کمال میل تلفنی به شما می‌گوییم.',
       catNav: 'دسته‌های منو', searchLabel: 'جست‌وجوی غذا', searchPlaceholder: 'جست‌وجوی غذا…',
@@ -455,29 +455,29 @@ const ui = {
     skipToContent: 'Перейти к содержанию',
 
     meta: {
-      homeTitle: '1001 Nights — персидский ресторан в Тбилиси',
-      homeDesc: 'Персидская кухня в старом Тбилиси: кебаб на углях, хорешт из казана, шафрановый рис и чай из самовара. Коте Апхази 9.',
-      menuTitle: 'Меню — 1001 Nights, персидский ресторан в Тбилиси',
-      menuDesc: 'Меню ресторана 1001 Nights в Тбилиси: закуски, кебаб на углях, персидские рагу, блюда из риса, рыба и сладости — каждое блюдо с фотографией.',
-      aboutTitle: 'О нас — 1001 Nights, персидский ресторан в Тбилиси',
-      aboutDesc: 'История, кухня и то, чему мы верны в 1001 Nights: персидское гостеприимство в старом Тбилиси, с 2012 года.',
-      eventsTitle: 'События — 1001 Nights, персидский ресторан в Тбилиси',
-      eventsDesc: 'Вечера живой музыки, праздник огня Джашн-е Чаршанбе Сури и вечера, когда наш зал становится чем-то другим — смотрите, что уже готовится в 1001 Nights.',
-      coursesTitle: 'Перемены блюд — 1001 Nights, персидский ресторан в Тбилиси',
-      coursesDesc: 'Заметки из кухни о трёх переменах персидского стола — закусках, огне и сладком финале — и что заказать, когда сядете за стол в 1001 Nights.',
-      contactTitle: 'Контакты — 1001 Nights, персидский ресторан в Тбилиси',
-      contactDesc: 'Как связаться с 1001 Nights в Тбилиси: напишите для брони или вопроса, или позвоните напрямую. Адрес, часы работы и ответы на частые вопросы.'
+      homeTitle: 'Aladin Kitchen — персидский ресторан в Тбилиси',
+      homeDesc: 'Персидская кухня в старом Тбилиси: кебаб на углях, хорешт из казана, шафрановый рис и чай из самовара. Шавтели 5.',
+      menuTitle: 'Меню — Aladin Kitchen, персидский ресторан в Тбилиси',
+      menuDesc: 'Меню ресторана Aladin Kitchen в Тбилиси: закуски, кебаб на углях, персидские рагу, блюда из риса, рыба и сладости — каждое блюдо с фотографией.',
+      aboutTitle: 'О нас — Aladin Kitchen, персидский ресторан в Тбилиси',
+      aboutDesc: 'История, кухня и то, чему мы верны в Aladin Kitchen: персидское гостеприимство в старом Тбилиси, с 2015 года.',
+      eventsTitle: 'События — Aladin Kitchen, персидский ресторан в Тбилиси',
+      eventsDesc: 'Вечера живой музыки, праздник огня Джашн-е Чаршанбе Сури и вечера, когда наш зал становится чем-то другим — смотрите, что уже готовится в Aladin Kitchen.',
+      coursesTitle: 'Перемены блюд — Aladin Kitchen, персидский ресторан в Тбилиси',
+      coursesDesc: 'Заметки из кухни о трёх переменах персидского стола — закусках, огне и сладком финале — и что заказать, когда сядете за стол в Aladin Kitchen.',
+      contactTitle: 'Контакты — Aladin Kitchen, персидский ресторан в Тбилиси',
+      contactDesc: 'Как связаться с Aladin Kitchen в Тбилиси: напишите для брони или вопроса, или позвоните напрямую. Адрес, часы работы и ответы на частые вопросы.'
     },
 
     nav: { menu: 'Меню', restaurant: 'Ресторан', experience: 'Атмосфера', visit: 'Как найти', homeLabel: 'Главная', about: 'О нас', events: 'События', courses: 'Перемены блюд', contact: 'Контакты',
-           reserve: 'Бронь', reserveLong: 'Забронировать стол', openMenu: 'Открыть меню', main: 'Основная навигация', home: '1001 Nights — главная' },
+           reserve: 'Бронь', reserveLong: 'Забронировать стол', openMenu: 'Открыть меню', main: 'Основная навигация', home: 'Aladin Kitchen — главная' },
 
     hero: {
-      kicker: 'Персидская кухня · Тбилиси, с 2012 года',
+      kicker: 'Персидская кухня · Тбилиси, с 2015 года',
       tagline: 'Тысяча вкусов, тысяча историй.',
-      sub: 'Кебаб на углях, хорешт из казана, рис с золотой корочкой. В самом сердце старого города, на Коте Апхази.',
+      sub: 'Кебаб на углях, хорешт из казана, рис с золотой корочкой. В самом сердце старого города, на Шавтели.',
       ctaMenu: 'Смотреть меню', ctaReserve: 'Забронировать стол',
-      fact1: 'Коте Апхази 9', fact2: 'Ежедневно 11–23', fact3: 'Халяль · семейное дело'
+      fact1: 'Шавтели 5', fact2: 'Ежедневно 11–23', fact3: 'Халяль · семейное дело'
     },
 
     marquee: ['Шафран', 'Гранат', 'Угли', 'Сушёный лайм', 'Тахдиг', 'Сумах', 'Розовая вода', 'Фисташка'],
@@ -485,7 +485,7 @@ const ui = {
     story: {
       kicker: '01 — Дом',
       titleA: 'Вечер, который', titleB: 'не хочет кончаться',
-      lead: 'За жёлтым фасадом на Коте Апхази есть зал, где уже больше десяти лет происходит одно и то же: мангал разгорается с полудня, казаны стоят на малом огне с утра, а где-то к вечеру кто-нибудь начинает петь.',
+      lead: 'За старым каменным фасадом на Шавтели есть зал, где уже больше десяти лет происходит одно и то же: мангал разгорается с полудня, казаны стоят на малом огне с утра, а где-то к вечеру кто-нибудь начинает петь.',
       body: 'Наша кухня пришла из Исфахана и Шираза — и по дороге в Тбилиси взяла всё, что ей понравилось: сумах Леванта, бахарат Залива, грузинский хлеб из тонэ. Остаётся персидское правило: ни одна специя не лезет вперёд, всему даётся время.',
       stat1: 'Лет в Тбилиси', stat2: 'Блюд в меню', stat3: 'Часа на одно махиче',
       link: 'Часы работы и как добраться', badgeSince: 'С', badgeCity: 'Тбилиси'
@@ -504,12 +504,12 @@ const ui = {
       hero: {
         kicker: 'О нас',
         title: 'Дом, который живёт по своим часам',
-        lead: 'На Коте Апхази 9 с 2012 года пахнет углями и шафраном. Это история кухни за этим запахом — откуда она пришла, во что верит и кто поддерживает огонь.'
+        lead: 'На Шавтели 5 с 2015 года пахнет углями и шафраном. Это история кухни за этим запахом — откуда она пришла, во что верит и кто поддерживает огонь.'
       },
       story: {
         kicker: '01 — С чего всё началось',
         titleA: 'Из Исфахана', titleB: 'в старый город',
-        lead: 'Рецепты приехали раньше нас: хорешт бабушки, отцовская рука на шампуре, семейное чутьё — когда рис готов, а когда ещё нет. 1001 Nights открылся в 2012 году с одной идеей: готовить так, как учили нас, и впустить в это Тбилиси.',
+        lead: 'Рецепты приехали раньше нас: хорешт бабушки, отцовская рука на шампуре, семейное чутьё — когда рис готов, а когда ещё нет. Aladin Kitchen открылся в 2015 году с одной идеей: готовить так, как учили нас, и впустить в это Тбилиси.',
         body: 'Город тоже кое-что дал взамен. Грузинский хлеб из тонэ лёг на наш стол; левантийский сумах нашёл дорогу в персидское рагу; неспешные вечера старого города научили нас не торопить чай. Ничего из этого не изменило главного убеждения кухни — блюду нужно время больше, чем что-либо ещё.',
         extra: 'Спустя десять лет мангал всё так же разгорается с полудня, а казаны всё так же кипят с утра. Зал наполняется как и всегда: сначала семья, потом друзья, потом каждый, кто идёт мимо и не может пройти мимо запаха.',
         stat1: 'Лет в Тбилиси', stat2: 'Блюд в меню', stat3: 'Часа на одно махиче',
@@ -557,7 +557,7 @@ const ui = {
         fields: { name: 'Имя', email: 'Email', phone: 'Телефон', topic: 'Тема сообщения', message: 'Сообщение' },
         placeholders: { name: 'Ваше имя', email: 'you@example.com', phone: '+995 …', message: 'Чем можем помочь?' },
         options: { choose: 'Выберите тему', enquiry: 'Общий вопрос', reservation: 'Бронирование', other: 'Другое' },
-        emailSubject: 'Новое сообщение с формы 1001 Nights',
+        emailSubject: 'Новое сообщение с формы Aladin Kitchen',
         submit: 'Отправить',
         success: 'Спасибо — сообщение получено. Обычно отвечаем в течение дня; для брони на сегодня лучше позвонить.',
         error: 'Что-то пошло не так, сообщение не отправилось. Попробуйте ещё раз или позвоните нам напрямую — номер справа.'
@@ -569,7 +569,7 @@ const ui = {
           { q: 'Принимаете бронь? На сколько человек?', a: 'Да — через эту форму, по телефону или в WhatsApp. Для групп больше восьми человек лучше коротко позвонить: так проще подобрать стол и меню.' },
           { q: 'Кухня халяльная? Учитываете аллергии?', a: 'Да, наша кухня халяльная. Напишите об аллергии или диете в сообщении или при бронировании — кухня подстроится.' },
           { q: 'Есть доставка или еда на вынос?', a: 'На вынос — да, позвоните заранее, и всё будет готово к вашему приходу. По доставке в Тбилиси уточните по телефону текущих партнёров и районы.' },
-          { q: 'Где вы находитесь и есть ли парковка?', a: 'Улица Коте Апхази 9, две минуты от Метехского моста в старом городе. Парковка на улице ограничена — в оживлённые вечера проще взять такси или пройтись пешком.' },
+          { q: 'Где вы находитесь и есть ли парковка?', a: 'Улица Шавтели 5, две минуты от собора Сиони в старом городе. Парковка на улице ограничена — в оживлённые вечера проще взять такси или пройтись пешком.' },
           { q: 'Можно с детьми?', a: 'Конечно — мы семейный ресторан. Попросите детский стул при бронировании, и мы его подготовим.' }
         ]
       }
@@ -625,7 +625,7 @@ const ui = {
       sub: 'Две минуты от Метехского моста, в самом центре старого города. Есть места внутри и на воздухе — для больших компаний лучше коротко позвонить.',
       address: 'Адрес', contact: 'Контакты', hours: 'Часы работы',
       whatsapp: 'Также в WhatsApp', map: 'На карте',
-      street: 'ул. Коте Апхази 9', city: '0105 Тбилиси, Грузия',
+      street: 'ул. Шавтели 5', city: '0105 Тбилиси, Грузия',
       row1: 'Пн – Чт', row2: 'Пт – Сб', row3: 'Воскресенье',
       ctaReserve: 'Забронировать стол', ctaMenu: 'Меню'
     },
@@ -633,7 +633,7 @@ const ui = {
     instagram: {
       kicker: '06 — Мы в Instagram', title: 'Свежее прямо с кухни — в Instagram',
       sub: 'Новые блюда, вечера и закулисные моменты — как только это происходит.',
-      cta: 'Подписаться @1001nights.ge'
+      cta: 'Подписаться @aladinkitchen.ge'
     },
 
     footer: {
@@ -641,12 +641,12 @@ const ui = {
       pages: 'Страницы', visit: 'Как найти', contact: 'Контакты',
       hoursLink: 'Часы работы', directions: 'Как добраться', reservation: 'Бронирование',
       gallery: 'Галерея',
-      copyright: '© {y} Ресторан 1001 Nights, Тбилиси',
+      copyright: '© {y} Ресторан Aladin Kitchen, Тбилиси',
       credit: 'Оформление по стайлгайду «Classical»'
     },
 
     menuPage: {
-      kicker: '1001 Nights · Тбилиси', title: 'Меню',
+      kicker: 'Aladin Kitchen · Тбилиси', title: 'Меню',
       lead: '{c} раздела, {n} блюд. Всё готовится под заказ — кебаб идёт прямо с углей, хорешт стоит на огне с утра. К каждому блюду фотография с нашей кухни.',
       priceNotice: 'Цены сейчас вносятся. Актуальные цены с удовольствием назовём по телефону.',
       catNav: 'Разделы меню', searchLabel: 'Поиск блюда', searchPlaceholder: 'Найти блюдо…',
@@ -669,29 +669,29 @@ const ui = {
     skipToContent: 'გადასვლა შიგთავსზე',
 
     meta: {
-      homeTitle: '1001 Nights — სპარსული რესტორანი თბილისში',
-      homeDesc: 'სპარსული სამზარეულო თბილისის ძველ ქალაქში: ნახშირზე შემწვარი ქაბაბი, ხორეშთი, ზაფრანიანი ბრინჯი და ჩაი სამოვრიდან. კოტე აფხაზი 9.',
-      menuTitle: 'მენიუ — 1001 Nights, სპარსული რესტორანი თბილისში',
-      menuDesc: 'რესტორან 1001 Nights-ის მენიუ თბილისში: წასახემსებელი, ნახშირზე შემწვარი ქაბაბი, სპარსული ხორეშთი, ბრინჯის კერძები, თევზი და ტკბილეული — ყოველი კერძი ფოტოთი.',
-      aboutTitle: 'ჩვენ შესახებ — 1001 Nights, სპარსული რესტორანი თბილისში',
-      aboutDesc: 'ისტორია, სამზარეულო და რასაც 1001 Nights-ში ვერთგულებთ: სპარსული სტუმართმოყვარეობა თბილისის ძველ ქალაქში, 2012 წლიდან.',
-      eventsTitle: 'ღონისძიებები — 1001 Nights, სპარსული რესტორანი თბილისში',
-      eventsDesc: 'ცოცხალი მუსიკის საღამოები, ჯაშნ-ე ჩარშანბე სურის ცეცხლის დღესასწაული და საღამოები, როცა ჩვენი დარბაზი სხვა რამედ იქცევა — ნახეთ, რა გველოდება 1001 Nights-ში.',
-      coursesTitle: 'სუფრის ეტაპები — 1001 Nights, სპარსული რესტორანი თბილისში',
-      coursesDesc: 'ჩანაწერები სამზარეულოდან სპარსული სუფრის სამ ეტაპზე — წასახემსებელი, ცეცხლი და ტკბილი დასასრული — და რა შევუკვეთოთ, როცა 1001 Nights-ში ჩამოვსხდებით.',
-      contactTitle: 'კონტაქტი — 1001 Nights, სპარსული რესტორანი თბილისში',
-      contactDesc: 'როგორ დაგვიკავშირდეთ 1001 Nights-ს თბილისში: მოგვწერეთ დასაჯავშნად ან შეკითხვისთვის, ან პირდაპირ დაგვირეკეთ. მისამართი, სამუშაო საათები და პასუხები ხშირ კითხვებზე.'
+      homeTitle: 'Aladin Kitchen — სპარსული რესტორანი თბილისში',
+      homeDesc: 'სპარსული სამზარეულო თბილისის ძველ ქალაქში: ნახშირზე შემწვარი ქაბაბი, ხორეშთი, ზაფრანიანი ბრინჯი და ჩაი სამოვრიდან. შავთელის ქუჩა 5.',
+      menuTitle: 'მენიუ — Aladin Kitchen, სპარსული რესტორანი თბილისში',
+      menuDesc: 'რესტორან Aladin Kitchen-ის მენიუ თბილისში: წასახემსებელი, ნახშირზე შემწვარი ქაბაბი, სპარსული ხორეშთი, ბრინჯის კერძები, თევზი და ტკბილეული — ყოველი კერძი ფოტოთი.',
+      aboutTitle: 'ჩვენ შესახებ — Aladin Kitchen, სპარსული რესტორანი თბილისში',
+      aboutDesc: 'ისტორია, სამზარეულო და რასაც Aladin Kitchen-ში ვერთგულებთ: სპარსული სტუმართმოყვარეობა თბილისის ძველ ქალაქში, 2015 წლიდან.',
+      eventsTitle: 'ღონისძიებები — Aladin Kitchen, სპარსული რესტორანი თბილისში',
+      eventsDesc: 'ცოცხალი მუსიკის საღამოები, ჯაშნ-ე ჩარშანბე სურის ცეცხლის დღესასწაული და საღამოები, როცა ჩვენი დარბაზი სხვა რამედ იქცევა — ნახეთ, რა გველოდება Aladin Kitchen-ში.',
+      coursesTitle: 'სუფრის ეტაპები — Aladin Kitchen, სპარსული რესტორანი თბილისში',
+      coursesDesc: 'ჩანაწერები სამზარეულოდან სპარსული სუფრის სამ ეტაპზე — წასახემსებელი, ცეცხლი და ტკბილი დასასრული — და რა შევუკვეთოთ, როცა Aladin Kitchen-ში ჩამოვსხდებით.',
+      contactTitle: 'კონტაქტი — Aladin Kitchen, სპარსული რესტორანი თბილისში',
+      contactDesc: 'როგორ დაგვიკავშირდეთ Aladin Kitchen-ს თბილისში: მოგვწერეთ დასაჯავშნად ან შეკითხვისთვის, ან პირდაპირ დაგვირეკეთ. მისამართი, სამუშაო საათები და პასუხები ხშირ კითხვებზე.'
     },
 
     nav: { menu: 'მენიუ', restaurant: 'რესტორანი', experience: 'ატმოსფერო', visit: 'მისამართი', homeLabel: 'მთავარი', about: 'ჩვენ შესახებ', events: 'ღონისძიებები', courses: 'სუფრის ეტაპები', contact: 'კონტაქტი',
-           reserve: 'დაჯავშნა', reserveLong: 'მაგიდის დაჯავშნა', openMenu: 'მენიუს გახსნა', main: 'მთავარი ნავიგაცია', home: '1001 Nights — მთავარი' },
+           reserve: 'დაჯავშნა', reserveLong: 'მაგიდის დაჯავშნა', openMenu: 'მენიუს გახსნა', main: 'მთავარი ნავიგაცია', home: 'Aladin Kitchen — მთავარი' },
 
     hero: {
-      kicker: 'სპარსული სამზარეულო · თბილისი, 2012 წლიდან',
+      kicker: 'სპარსული სამზარეულო · თბილისი, 2015 წლიდან',
       tagline: 'ათასი გემო, ათასი ამბავი.',
-      sub: 'ნახშირზე შემწვარი ქაბაბი, ხორეშთი ქვაბიდან, ბრინჯი ოქროსფერი ქერქით. ძველი ქალაქის გულში, კოტე აფხაზის ქუჩაზე.',
+      sub: 'ნახშირზე შემწვარი ქაბაბი, ხორეშთი ქვაბიდან, ბრინჯი ოქროსფერი ქერქით. ძველი ქალაქის გულში, შავთელის ქუჩაზე.',
       ctaMenu: 'მენიუს ნახვა', ctaReserve: 'მაგიდის დაჯავშნა',
-      fact1: 'კოტე აფხაზი 9', fact2: 'ყოველდღე 11–23', fact3: 'ჰალალი · ოჯახური'
+      fact1: 'შავთელის ქუჩა 5', fact2: 'ყოველდღე 11–23', fact3: 'ჰალალი · ოჯახური'
     },
 
     marquee: ['ზაფრანა', 'ბროწეული', 'ნახშირი', 'ხმელი ლაიმი', 'თახდიგი', 'სუმახი', 'ვარდის წყალი', 'ფისტა'],
@@ -699,7 +699,7 @@ const ui = {
     story: {
       kicker: '01 — სახლი',
       titleA: 'საღამო, რომელსაც', titleB: 'დასრულება არ უნდა',
-      lead: 'კოტე აფხაზის ყვითელი ფასადის უკან არის დარბაზი, სადაც ათ წელზე მეტია ერთი და იგივე ხდება: მაყალი შუადღიდან იწვის, ქვაბები დილიდან ნელ ცეცხლზე დგას, და საღამოს რომელიღაც წუთს ვიღაც სიმღერას იწყებს.',
+      lead: 'შავთელის ქუჩის ძველი ქვის ფასადის უკან არის დარბაზი, სადაც ათ წელზე მეტია ერთი და იგივე ხდება: მაყალი შუადღიდან იწვის, ქვაბები დილიდან ნელ ცეცხლზე დგას, და საღამოს რომელიღაც წუთს ვიღაც სიმღერას იწყებს.',
       body: 'ჩვენი სამზარეულო ისპაჰანიდან და შირაზიდან მოვიდა — და თბილისისკენ მიმავალ გზაზე ის აიღო, რაც მოეწონა: ლევანტის სუმახი, ყურის ბაჰარათი, თონის ქართული პური. რაც რჩება, სპარსული წესია: არცერთი სანელებელი წინ არ იწევს, ყველაფერს დრო ეძლევა.',
       stat1: 'წელი თბილისში', stat2: 'კერძი მენიუში', stat3: 'საათი ერთი მაჰიჩესთვის',
       link: 'სამუშაო საათები და მისამართი', badgeSince: 'დან', badgeCity: 'თბილისი'
@@ -718,12 +718,12 @@ const ui = {
       hero: {
         kicker: 'ჩვენ შესახებ',
         title: 'სახლი, რომელსაც საკუთარი დრო აქვს',
-        lead: 'კოტე აფხაზის ქუჩა 9-ს 2012 წლიდან ნახშირისა და ზაფრანის სუნი დაჰყვება. ეს არის სამზარეულოს ისტორია მის მიღმა — საიდან მოვიდა, რას სჯერა და ვინ ინახავს ცეცხლს.'
+        lead: 'შავთელის ქუჩა 5-ს 2015 წლიდან ნახშირისა და ზაფრანის სუნი დაჰყვება. ეს არის სამზარეულოს ისტორია მის მიღმა — საიდან მოვიდა, რას სჯერა და ვინ ინახავს ცეცხლს.'
       },
       story: {
         kicker: '01 — საიდან დაიწყო',
         titleA: 'ისპაჰანიდან', titleB: 'ძველ ქალაქამდე',
-        lead: 'რეცეპტები ჩვენზე ადრე ჩამოვიდა: ბებიის ხორეშთი, მამის ხელი შამფურზე, მთელი ოჯახის შეგრძნება, როდის არის ბრინჯი მზად და როდის — არა. 1001 Nights 2012 წელს ერთი იდეით გაიხსნა — ისე მოვამზადოთ, როგორც გვასწავლეს, და თბილისი შემოვუშვათ.',
+        lead: 'რეცეპტები ჩვენზე ადრე ჩამოვიდა: ბებიის ხორეშთი, მამის ხელი შამფურზე, მთელი ოჯახის შეგრძნება, როდის არის ბრინჯი მზად და როდის — არა. Aladin Kitchen 2015 წელს ერთი იდეით გაიხსნა — ისე მოვამზადოთ, როგორც გვასწავლეს, და თბილისი შემოვუშვათ.',
         body: 'ქალაქმაც რაღაც დაგვიბრუნა. ქართული პური თონედან ჩვენს მაგიდებზე მოვიდა; ლევანტის სუმახმა სპარსულ ხორეშთში გზა გაიკვლია; ძველი ქალაქის ნელი საღამოები გვასწავლიდა, ჩაი არ ავჩქაროთ. ამან ვერაფერი შეცვალა სამზარეულოს რწმენაში — რომ კერძს ყველაფერზე მეტად დრო სჭირდება.',
         extra: 'ათი წლის შემდეგ მაყალი დღემდე შუადღიდან იწვის და ქვაბები დილიდან დუღს. დარბაზი ისევე ივსება, როგორც ყოველთვის: ჯერ ოჯახი, მერე მეგობრები, მერე ყველა, ვინც გვერდით გაივლის და სუნს გაჰყვება შიგნით.',
         stat1: 'წელი თბილისში', stat2: 'კერძი მენიუში', stat3: 'საათი ერთი მაჰიჩესთვის',
@@ -771,7 +771,7 @@ const ui = {
         fields: { name: 'სახელი', email: 'ელფოსტა', phone: 'ტელეფონი', topic: 'თემა', message: 'შეტყობინება' },
         placeholders: { name: 'თქვენი სახელი', email: 'you@example.com', phone: '+995 …', message: 'რით შეგვიძლია დაგეხმაროთ?' },
         options: { choose: 'აირჩიეთ თემა', enquiry: 'ზოგადი შეკითხვა', reservation: 'დაჯავშნა', other: 'სხვა' },
-        emailSubject: 'ახალი შეტყობინება 1001 Nights-ის საკონტაქტო ფორმიდან',
+        emailSubject: 'ახალი შეტყობინება Aladin Kitchen-ის საკონტაქტო ფორმიდან',
         submit: 'გაგზავნა',
         success: 'გმადლობთ — შეტყობინება მიღებულია. ჩვეულებრივ ერთი დღის განმავლობაში ვპასუხობთ; დღევანდელი დაჯავშნისთვის სჯობს დაგვირეკოთ.',
         error: 'რაღაც ვერ გამოვიდა და შეტყობინება ვერ გაიგზავნა. სცადეთ ხელახლა ან პირდაპირ დაგვირეკეთ — ნომერი მარჯვნივაა.'
@@ -783,7 +783,7 @@ const ui = {
           { q: 'ჯავშნავთ მაგიდას? რამდენი კაცისთვის?', a: 'დიახ — ამ ფორმით, ტელეფონით ან WhatsApp-ით. რვაზე მეტი კაცის ჯგუფისთვის სჯობს მოკლედ დაგვირეკოთ — ასე უფრო ადვილია შესაფერისი მაგიდისა და მენიუს მომზადება.' },
           { q: 'სამზარეულო ჰალალია? ალერგიებს ითვალისწინებთ?', a: 'დიახ, ჩვენი სამზარეულო ჰალალია. მოგვწერეთ ალერგიის ან დიეტის შესახებ შეტყობინებაში ან დაჯავშნისას — სამზარეულო მოერგება.' },
           { q: 'გაქვთ მიტანა ან თან წაღება?', a: 'თან წაღება შესაძლებელია — დაგვირეკეთ წინასწარ და მზად გექნებათ. თბილისში მიტანასთან დაკავშირებით ტელეფონით გვკითხეთ მიმდინარე პარტნიორებისა და უბნების შესახებ.' },
-          { q: 'ზუსტად სად მდებარეობთ და არის პარკინგი?', a: 'კოტე აფხაზის ქუჩა 9, ორი წუთი მეტეხის ხიდიდან, ძველ ქალაქში. ქუჩის პარკინგი შეზღუდულია — დატვირთულ საღამოებში უფრო მარტივია ტაქსი ან მოკლე გასეირნება.' },
+          { q: 'ზუსტად სად მდებარეობთ და არის პარკინგი?', a: 'შავთელის ქუჩა 5, ორი წუთი სიონის საკათედრო ტაძრიდან, ძველ ქალაქში. ქუჩის პარკინგი შეზღუდულია — დატვირთულ საღამოებში უფრო მარტივია ტაქსი ან მოკლე გასეირნება.' },
           { q: 'ბავშვებთან ერთად შეიძლება მოსვლა?', a: 'რა თქმა უნდა — ოჯახური რესტორანი ვართ. დაჯავშნისას მოითხოვეთ საბავშვო სკამი და მოგამზადებთ.' }
         ]
       }
@@ -839,7 +839,7 @@ const ui = {
       sub: 'ორი წუთი მეტეხის ხიდიდან, ძველი ქალაქის შუაგულში. ვემსახურებით შიგნითაც და გარეთაც — დიდი კომპანიისთვის ჯობია მოკლედ დაგვირეკოთ.',
       address: 'მისამართი', contact: 'კონტაქტი', hours: 'სამუშაო საათები',
       whatsapp: 'ასევე WhatsApp-ზე', map: 'რუკაზე',
-      street: 'კოტე აფხაზის ქუჩა 9', city: '0105 თბილისი, საქართველო',
+      street: 'შავთელის ქუჩა 5', city: '0105 თბილისი, საქართველო',
       row1: 'ორშ – ხუთ', row2: 'პარ – შაბ', row3: 'კვირა',
       ctaReserve: 'მაგიდის დაჯავშნა', ctaMenu: 'მენიუ'
     },
@@ -847,7 +847,7 @@ const ui = {
     instagram: {
       kicker: '06 — გამოგვყევით', title: 'სამზარეულოდან — პირდაპირ Instagram-ში',
       sub: 'უახლესი კერძები, საღამოები და კულისებს მიღმა მომენტები — მაშინვე, როცა ხდება.',
-      cta: 'გამოგვყევით @1001nights.ge'
+      cta: 'გამოგვყევით @aladinkitchen.ge'
     },
 
     footer: {
@@ -855,12 +855,12 @@ const ui = {
       pages: 'გვერდები', visit: 'მისამართი', contact: 'კონტაქტი',
       hoursLink: 'სამუშაო საათები', directions: 'როგორ მოგვაგნოთ', reservation: 'დაჯავშნა',
       gallery: 'გალერეა',
-      copyright: '© {y} რესტორანი 1001 Nights, თბილისი',
+      copyright: '© {y} რესტორანი Aladin Kitchen, თბილისი',
       credit: 'გაფორმება სტაილგაიდ „Classical“-ის მიხედვით'
     },
 
     menuPage: {
-      kicker: '1001 Nights · თბილისი', title: 'მენიუ',
+      kicker: 'Aladin Kitchen · თბილისი', title: 'მენიუ',
       lead: '{c} თავი, {n} კერძი. ყველაფერი ახლად მზადდება — ქაბაბი ნახშირიდან მოდის, ხორეშთი დილიდან ცეცხლზეა. ყოველ კერძს თან ახლავს ფოტო ჩვენივე სამზარეულოდან.',
       priceNotice: 'ფასები ამჟამად ივსება. მიმდინარე ფასებს სიამოვნებით გეტყვით ტელეფონით.',
       catNav: 'მენიუს კატეგორიები', searchLabel: 'კერძის ძებნა', searchPlaceholder: 'იპოვეთ კერძი…',
@@ -878,17 +878,17 @@ const ui = {
 };
 
 const contact = {
-  phoneHref: '+995585891100',
+  phoneHref: '+995555123456',
   /* Lateinische Ziffern in allen Sprachen: eine Nummer zum Wählen und
      Kopieren soll überall gleich aussehen. */
-  phoneText: '+995 585 89 11 00',
-  email: 'info@1001nights.ge',
-  mapUrl: 'https://www.google.com/maps/search/?api=1&query=1001+Nights+Restaurant+Kote+Apkhazi+9+Tbilisi',
-  mapEmbedUrl: 'https://www.google.com/maps?q=1001+Nights+Restaurant+Kote+Apkhazi+9+Tbilisi&output=embed',
-  instagramUrl: 'https://www.instagram.com/1001nights.ge/',
+  phoneText: '+995 555 12 34 56',
+  email: 'info@aladinkitchen.ge',
+  mapUrl: 'https://www.google.com/maps/search/?api=1&query=Aladin+Kitchen+Shavteli+St+5+Tbilisi',
+  mapEmbedUrl: 'https://www.google.com/maps?q=Aladin+Kitchen+Shavteli+St+5+Tbilisi&output=embed',
+  instagramUrl: 'https://www.instagram.com/aladinkitchen.ge/',
   hours: { row1: '11:00 – 23:00', row2: '11:00 – 24:00', row3: '11:00 – 23:00' },
-  since: '2016',
-  yearsInTbilisi: 13,
+  since: '2015',
+  yearsInTbilisi: 10,
   hoursForMahiche: 4,
 
   /* Offener Punkt — noch zu klären, bevor das Kontaktformular live geht:

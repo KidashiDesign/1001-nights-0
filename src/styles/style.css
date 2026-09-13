@@ -1,7 +1,9 @@
 /* ══════════════════════════════════════════════════════════════════════════
-   1001 Nights — Persische Küche, Tbilisi
+   Aladin Kitchen — Persische Küche, Tbilisi
    Aufbauend auf dem Design-System "Classical", überschrieben mit den
-   Marken-Tokens aus dem Styleguide (Creme / Oliv / Gold / Petrol).
+   Marken-Tokens aus dem Styleguide (Pantone 20-0141 TPM Navy /
+   20-0161 TPM Petrol / 19-5918 TCX Waldgrün / 12-0911 TCX Sand /
+   4975 CP Bordeaux).
    Regeln aus dem System: Farbe als Kontur statt Fläche, Haarlinien tragen
    die Struktur, Buttons sind umrandet, Fotos sitzen in einer Passepartout-
    Platte (.plate), Weißraum großzügig.
@@ -9,27 +11,27 @@
 
 /* ── Tokens ───────────────────────────────────────────────────────────── */
 :root {
-  --color-bg: #1A1A1C;
-  --color-surface: #333336;
-  --color-text: #F3F1E4;
-  --color-accent: #9DAE5E;
-  --color-accent-2: #C7A94A;
-  --color-divider: color-mix(in srgb, #F9F8ED 18%, transparent);
+  --color-bg: #141C2B;
+  --color-surface: #1E2C3D;
+  --color-text: #F3EEE4;
+  --color-accent: #6E8F6C;
+  --color-accent-2: #C9A47C;
+  --color-divider: color-mix(in srgb, #F3EEE4 18%, transparent);
 
   --color-neutral-100:#F5F5F5; --color-neutral-200:#E6E6E6; --color-neutral-300:#D0D0D1;
   --color-neutral-400:#B0B0B2; --color-neutral-500:#8C8C8F; --color-neutral-600:#68686C;
   --color-neutral-700:#4A4A4E; --color-neutral-800:#333336; --color-neutral-900:#232326;
 
-  --color-accent-100:#EEF0DE; --color-accent-200:#DBE0BA; --color-accent-300:#C0CB8C;
-  --color-accent-400:#9DAE5E; --color-accent-500:#6E7A3A; --color-accent-600:#586330;
-  --color-accent-700:#434C25; --color-accent-800:#2E3419; --color-accent-900:#1B1E0E;
+  --color-accent-100:#EAF0E7; --color-accent-200:#CFE0CA; --color-accent-300:#A9C7A1;
+  --color-accent-400:#6E8F6C; --color-accent-500:#4F7050; --color-accent-600:#3C5A3E;
+  --color-accent-700:#2C4530; --color-accent-800:#1E3328; --color-accent-900:#122019;
 
-  --color-accent-2-100:#FDFBF0; --color-accent-2-200:#FAF2D9; --color-accent-2-300:#F5E7B8;
-  --color-accent-2-400:#F0DD8F; --color-accent-2-500:#E0C669; --color-accent-2-600:#C7A94A;
-  --color-accent-2-700:#A38636; --color-accent-2-800:#766226; --color-accent-2-900:#4A3E18;
+  --color-accent-2-100:#FBF3E9; --color-accent-2-200:#F4E2C9; --color-accent-2-300:#EAC89E;
+  --color-accent-2-400:#DDAE79; --color-accent-2-500:#C9A47C; --color-accent-2-600:#9C6F55;
+  --color-accent-2-700:#6E3A38; --color-accent-2-800:#4A1E22; --color-accent-2-900:#2C0F14;
 
-  --color-teal-900: #3A4E4A;
-  --color-ink: #1A1A1C;              /* Kolophon-Schwarz, eine Stufe unter neutral-900 */
+  --color-teal-900: #123333;
+  --color-ink: #0C121C;              /* Kolophon-Schwarz, eine Stufe unter neutral-900 */
 
   /* Schrift je Schriftsystem. Italiana kann nur Latein, deshalb bekommt jede
      Sprache ein Display, das ihre Zeichen wirklich hat. */
@@ -93,8 +95,8 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 .wordmark, .nav-brand .mark, .footer-brand .mark {
   font-family: "Italiana", "Cormorant Garamond", Georgia, serif;
   font-weight: 400;
-  /* "1001 Nights" ist ein lateinischer Name mit führender Zahl. In einem
-     RTL-Absatz dreht der Bidi-Algorithmus ihn sonst zu "Nights 1001". */
+  /* "Aladin Kitchen" ist ein lateinischer Name. In einem RTL-Absatz dreht der
+     Bidi-Algorithmus ihn sonst in unvorhersehbarer Reihenfolge. */
   direction: ltr; unicode-bidi: isolate;
 }
 

@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════════════════
-   1001 Nights — Interaktionen
+   Aladin Kitchen — Interaktionen
    Nachbau der Webflow-Bewegungen der Vorlage, ohne jQuery und ohne
    Webflow-Runtime: IntersectionObserver + CSS-Transitions.
    Bewegungsarten: Einstiegs-Staffel (Hero), Scroll-Reveal (up/left/right/

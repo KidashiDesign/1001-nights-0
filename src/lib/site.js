@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════════════════
-   1001 Nights — Wege und Kennzahlen der Seite
+   Aladin Kitchen — Wege und Kennzahlen der Seite
    ──────────────────────────────────────────────────────────────────────────
    Ein Ort für alles, was mehrere Seiten gemeinsam brauchen: die URL einer
    Sprachfassung, der Pfad zu einem Bild, die Zahl der Gerichte.

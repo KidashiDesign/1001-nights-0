@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════════════════
-   1001 Nights — Inhaltsprüfung
+   Aladin Kitchen — Inhaltsprüfung
    ──────────────────────────────────────────────────────────────────────────
    Hängt als Integration in astro.config.mjs und läuft einmal beim Bauen wie
    beim Start des Entwicklungsservers. Sie bricht ab, wenn ein Inhalt

@@ -10,7 +10,7 @@ interface Props { code: LangCode; page: 'home' | 'menu' | 'about' | 'events' | '
 const { code, page } = Astro.props;
 
 const t = ui[code];
-const logo = 'aladin-kitchen/logo-web-aladin-kitchen.svg';
+const logo = 'aladin-kitchen/logo-aladin-kitchen-web.svg';
 const links = [
   { href: homeUrl(code), label: t.nav.homeLabel, current: page === 'home' },
   { href: aboutUrl(code), label: t.nav.about, current: page === 'about' },
